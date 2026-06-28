@@ -22,6 +22,7 @@ def create_tables():
         text TEXT NOT NULL,
         author TEXT NOT NULL,
         created_at TEXT,
+        last_updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         favorite_count INTEGER DEFAULT 0,
         retweet_count INTEGER DEFAULT 0,
         language TEXT
@@ -61,7 +62,9 @@ def create_tables():
 
         FOREIGN KEY (tweet_id)
             REFERENCES tweets(tweet_id)
-            ON DELETE CASCADE
+            ON DELETE CASCADE,
+                   
+        UNIQUE(tweet_id, model_name)
     )
     """)
 
