@@ -1,7 +1,7 @@
 from database.connection import get_connection
 
 
-def save_tweet(tweet: dict):
+def save_tweet(tweet: object):
     connection = get_connection()
     cursor = connection.cursor()
 
@@ -25,13 +25,13 @@ def save_tweet(tweet: dict):
             retweet_count = excluded.retweet_count,
             language = excluded.language
     """, (
-        tweet["tweet_id"],
-        tweet["text"],
-        tweet["author"],
-        tweet["created_at"],
-        tweet["favorite_count"],
-        tweet["retweet_count"],
-        tweet["language"]
+        tweet.tweet_id,
+        tweet.text,
+        tweet.author,
+        tweet.created_at,
+        tweet.favorite_count,
+        tweet.retweet_count,
+        tweet.language
     ))
 
     connection.commit()

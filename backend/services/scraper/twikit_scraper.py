@@ -5,6 +5,7 @@ from twikit import Client
 from services.scraper.scraper_interface import ScraperInterface
 from utils.config import Config
 import asyncio
+from models.tweet import Tweet
 
 
 class TwikitScraper(ScraperInterface):
@@ -24,14 +25,17 @@ class TwikitScraper(ScraperInterface):
     
         while tweets and len(results) < limit:
             for tweet in tweets:
-                results.append({
-                    "tweet_id": tweet.id,
-                    "text": tweet.text,
-                    "author": tweet.user.screen_name,
-                    "created_at": tweet.created_at,
-                    "retweet_count": tweet.retweet_count,
-                    "favorite_count": tweet.favorite_count,
-                })
+                results.append(
+                    Tweet(
+                        tweet_id=tweet.id,
+                        text=tweet.text,
+                        author=tweet.user.screen_name,
+                        created_at=str(tweet.created_at),
+                        favorite_count=tweet.favorite_count,
+                        retweet_count=tweet.retweet_count,
+                        language=getattr(tweet, "lang", None),
+                    )
+                )
         
             if len(results) >= limit:
                 break
