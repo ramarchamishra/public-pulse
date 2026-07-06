@@ -1,7 +1,43 @@
 from database.connection import get_connection
+from models.tweet import Tweet
 
+def get_unanalyzed_tweets(limit: int = 100) -> list[Tweet]:
 
-def save_tweet(tweet: object):
+    connection = get_connection()
+    cursor = connection.cursor()
+
+    cursor.execute("""
+        SELECT *
+        FROM tweets
+        WHERE tweet_id NOT IN (
+            SELECT tweet_id
+            FROM sentiment_results
+        )
+        LIMIT ?
+    """, (limit,))
+
+    rows = cursor.fetchall()
+
+    connection.close()
+
+    tweets = []
+
+    for row in rows:
+        tweets.append(
+            Tweet(
+                tweet_id=row["tweet_id"],
+                text=row["text"],
+                author=row["author"],
+                created_at=row["created_at"],
+                favorite_count=row["favorite_count"],
+                retweet_count=row["retweet_count"],
+                language=row["language"],
+            )
+        )
+
+    return tweets
+
+def save_tweet(tweet: Tweet):
     connection = get_connection()
     cursor = connection.cursor()
 
