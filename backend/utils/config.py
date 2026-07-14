@@ -9,3 +9,4 @@ class Config:
     X_PASSWORD = os.getenv("X_PASSWORD")
     X_AUTHTOKEN = os.getenv("X_AUTHTOKEN")
     X_CT0 = os.getenv("X_CT0")
+    EMBEDDING_MODEL = "BAAI/bge-base-en-v1.5"
