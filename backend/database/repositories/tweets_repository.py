@@ -1,6 +1,48 @@
 from database.connection import get_connection
 from models.tweet import Tweet
 
+def get_tweets_by_search(search_id: int) -> list[Tweet]:
+
+    conn = get_connection()
+    cursor = conn.cursor()
+
+    cursor.execute(
+        """
+        SELECT
+            t.tweet_id,
+            t.text,
+            t.author,
+            t.created_at,
+            t.favorite_count,
+            t.retweet_count,
+            t.language
+        FROM tweets t
+        INNER JOIN search_tweets st
+            ON t.tweet_id = st.tweet_id
+        WHERE st.search_id = ?
+        ORDER BY t.created_at DESC;
+        """,
+        (search_id,)
+    )
+
+    rows = cursor.fetchall()
+    conn.close()
+
+    tweets = [
+        Tweet(
+            tweet_id=row["tweet_id"],
+            text=row["text"],
+            author=row["author"],
+            created_at=row["created_at"],
+            favorite_count=row["favorite_count"],
+            retweet_count=row["retweet_count"],
+            language=row["language"],
+        )
+        for row in rows
+    ]
+
+    return tweets
+
 def get_unanalyzed_tweets(limit: int = 100) -> list[Tweet]:
 
     connection = get_connection()
