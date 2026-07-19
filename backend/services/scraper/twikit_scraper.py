@@ -42,6 +42,6 @@ class TwikitScraper(ScraperInterface):
             
             # Fetch next page
             tweets = await tweets.next()
-            await asyncio.sleep(1)  # avoid rate limiting
+            await asyncio.sleep(2)  # avoid rate limiting
     
         return results[:limit]

@@ -17,3 +17,5 @@ testing.py
 cookies.json
 
 *.db
+
+experiments/
