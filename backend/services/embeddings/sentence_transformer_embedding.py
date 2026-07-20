@@ -16,10 +16,11 @@ class SentenceTransformerEmbedding(EmbeddingInterface):
 
     def __init__(self):
         if SentenceTransformerEmbedding._model is None:
-            print(f"Loading embedding model: {self.MODEL_NAME}")
+            print(f"Loading embedding model: {self.MODEL_NAME} in {Config.DEVICE}")
 
             SentenceTransformerEmbedding._model = SentenceTransformer(
-                self.MODEL_NAME
+                self.MODEL_NAME,
+                device=Config.DEVICE,
             )
 
     def encode(

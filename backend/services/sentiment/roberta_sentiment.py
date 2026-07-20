@@ -3,7 +3,7 @@ from transformers import (
     AutoModelForSequenceClassification,
     AutoTokenizer,
 )
-
+from utils.config import Config
 from models.tweet import Tweet
 from services.sentiment.sentiment_interface import SentimentInterface
 
@@ -25,7 +25,7 @@ class RobertaSentiment(SentimentInterface):
 
         if RobertaSentiment._model is None:
 
-            print("Loading sentiment model...")
+            print(f"Loading {RobertaSentiment.MODEL_NAME} on {Config.DEVICE.upper()}...")
 
             RobertaSentiment._tokenizer = AutoTokenizer.from_pretrained(
                 RobertaSentiment.MODEL_NAME
@@ -33,7 +33,7 @@ class RobertaSentiment(SentimentInterface):
 
             RobertaSentiment._model = AutoModelForSequenceClassification.from_pretrained(
                 RobertaSentiment.MODEL_NAME
-            )
+            ).to(Config.DEVICE)
 
             RobertaSentiment._model.eval()
 
@@ -49,6 +49,7 @@ class RobertaSentiment(SentimentInterface):
             return_tensors="pt",
             truncation=True
         )
+        inputs = {k: v.to(Config.DEVICE) for k, v in inputs.items()}
 
         with torch.no_grad():
 
@@ -57,11 +58,11 @@ class RobertaSentiment(SentimentInterface):
         probabilities = torch.softmax(
             outputs.logits,
             dim=1
-        )[0]
+        ).cpu()
 
         predicted_class = torch.argmax(probabilities).item()
 
-        confidence = probabilities[predicted_class].item()
+        confidence = probabilities[0][predicted_class].item()
 
         return (
             RobertaSentiment.LABELS[predicted_class],

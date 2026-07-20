@@ -1,5 +1,5 @@
 from bertopic import BERTopic
-
+from utils.config import Config
 from services.clustering.clustering_interface import ClusteringInterface
 
 

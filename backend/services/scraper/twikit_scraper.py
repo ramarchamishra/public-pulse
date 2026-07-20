@@ -21,14 +21,29 @@ class TwikitScraper(ScraperInterface):
 
     async def get_tweets(self, topic: str, limit: int = 100):
         results = []
+        topic = f"{topic} lang:en -is:retweet"
         tweets = await self.client.search_tweet(topic, product='Latest', count=20)
+
+        seen_ids = set()
     
-        while tweets and len(results) < limit:
+        while tweets is not None and len(results) < limit:
+            
             for tweet in tweets:
+                if getattr(tweet, "lang", None) != "en":
+                    continue
+
+                if tweet.id in seen_ids:
+                    continue
+                
+                if not tweet.text or len(tweet.text.strip()) < 6:
+                    continue
+
+
+                seen_ids.add(tweet.id)
                 results.append(
                     Tweet(
                         tweet_id=tweet.id,
-                        text=tweet.text,
+                        text=tweet.text.strip(),
                         author=tweet.user.screen_name,
                         created_at=str(tweet.created_at),
                         favorite_count=tweet.favorite_count,
@@ -42,6 +57,6 @@ class TwikitScraper(ScraperInterface):
             
             # Fetch next page
             tweets = await tweets.next()
-            await asyncio.sleep(2)  # avoid rate limiting
+            await asyncio.sleep(1)  # avoid rate limiting
     
         return results[:limit]

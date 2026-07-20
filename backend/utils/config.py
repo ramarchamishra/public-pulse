@@ -1,4 +1,5 @@
 import os
+import torch
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -10,3 +11,4 @@ class Config:
     X_AUTHTOKEN = os.getenv("X_AUTHTOKEN")
     X_CT0 = os.getenv("X_CT0")
     EMBEDDING_MODEL = "BAAI/bge-base-en-v1.5"
+    DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
