@@ -12,6 +12,7 @@ def create_tables():
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         topic TEXT NOT NULL,
         requested_limit INTEGER NOT NULL,
+        mode TEXT NOT NULL,
         scraped_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     )
     """)
@@ -70,3 +71,4 @@ def create_tables():
 
     connection.commit()
     connection.close()
+

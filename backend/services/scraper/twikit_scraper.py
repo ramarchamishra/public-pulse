@@ -17,7 +17,7 @@ import csv
 from models.tweet import Tweet
 
 
-PAGES_BEFORE_COOLDOWN = 40      
+PAGES_BEFORE_COOLDOWN = 42      
 COOLDOWN_SECONDS = 10 * 60      # proactive pause, no request made during this time
 MIN_YIELD_PER_CYCLE = 20   # stop — soft-throttled or exhausted
 
@@ -25,12 +25,20 @@ MIN_YIELD_PER_CYCLE = 20   # stop — soft-throttled or exhausted
 class TwikitScraper(ScraperInterface):
 
     def __init__(self):
-        self.client = Client('en-US')
+        self.client = Client(
+            'en-US',
+            user_agent="Mozilla/5.0 (X11; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153.0"
+        )
 
     async def load_session(self):
         self.client.set_cookies({
             "auth_token": Config.X_AUTHTOKEN,
             "ct0": Config.X_CT0,
+            "guest_id":Config.X_GUEST_ID,
+            "guest_id_ads":Config.X_GUEST_ID_ADS,
+            "guest_id_marketing":Config.X_GUEST_ID_MARKETING,
+            "personalization_id":Config.X_PERSONALIZATION_ID,
+            "twid":Config.X_TWID
         })
 
     def _dump_rate_limit_info(self, e: Exception):
@@ -47,17 +55,74 @@ class TwikitScraper(ScraperInterface):
                     print(f"response.headers: {dict(val.headers)}")
         print("-------------------------------------")
 
-    async def get_tweets(self, topic: str, limit: int = 100):
+    async def get_tweets(self, topic: str, mode:str = "Latest",limit = 100):
+
+        results = []
+        rejected = []
+
+        if(mode=="Latest" or mode=="Top"):
+            results,rejected,pages_since_cooldown = await self.scrape_tweets(topic=topic,limit=limit,mode=mode)
+
+        elif(mode=="Mixed"):
+            top_limit = int(min(600,0.5*limit))
+            temp_res,temp_rej,pages_since_cooldown = await self.scrape_tweets(topic=topic,limit=top_limit,mode="Top")
+            results.extend(temp_res)
+            rejected.extend(temp_rej)
+
+            limit = max(0, limit - len(results))
+            temp_res,temp_rej,pages_since_cooldown = await self.scrape_tweets(topic=topic,
+                                                  limit=limit,
+                                                  mode="Latest",
+                                                  seen_ids=set(t.tweet_id for t in results),
+                                                  pages_since_cooldown=pages_since_cooldown)
+            results.extend(temp_res)
+            rejected.extend(temp_rej)
+            print(f"Mixed Mode Results: Tweet Total:{len(results)}, Rejected: {len(rejected)}, ")
+
+        else: raise ValueError(f"Unknown mode: {mode}")
+
+        try:
+            with open("last_run.csv", "w", newline="", encoding="utf-8") as f:
+                writer = csv.DictWriter(f, fieldnames=[
+                    "tweet_id", "text", "author", "created_at",
+                    "favorite_count", "retweet_count", "language",
+                ])
+                writer.writeheader()
+                for t in results:
+                    writer.writerow({
+                        "tweet_id": t.tweet_id,
+                        "text": t.text,
+                        "author": t.author,
+                        "created_at": t.created_at,
+                        "favorite_count": t.favorite_count,
+                        "retweet_count": t.retweet_count,
+                        "language": t.language,
+                    })
+
+            with open("last_run_rejected.csv", "w", newline="", encoding="utf-8") as f:
+                writer = csv.DictWriter(f, fieldnames=["tweet_id", "text", "reason", "language"])
+                writer.writeheader()
+                writer.writerows(rejected)
+
+            print(f"Saved {len(results)} tweets to last_run.csv, "
+                  f"{len(rejected)} rejected tweets to last_run_rejected.csv")
+        except Exception as e:
+            print(f"Failed to write CSV files: {e}")
+
+
+
+        return results
+
+    async def scrape_tweets(self, topic: str, mode: str, limit: int = 100,seen_ids:set = None,pages_since_cooldown: int = 0):
         results = []
 
         query_tokens = build_variant_patterns(extract_query_tokens(topic))
         search_query = f"{topic} lang:en -is:retweet"
 
-        seen_ids = set()
+        seen_ids = seen_ids if seen_ids is not None else set()
         rejected = []
         dropped_irrelevant, dropped_short, dropped_duplicates = 0, 0, 0
         page_count = 0
-        pages_since_cooldown = 0
         rate_limited = False
         start_time = time.monotonic()
         results_at_last_cooldown = 0
@@ -67,7 +132,7 @@ class TwikitScraper(ScraperInterface):
         MAX_COOLDOWNS = max(2,limit//300)          # hard ceiling on cooldown cycles per run
 
         try:
-            tweets = await self.client.search_tweet(search_query, product='Top', count=20)
+            tweets = await self.client.search_tweet(search_query, product=mode, count=20)
 
             while tweets is not None and len(results) < limit:
 
@@ -174,37 +239,10 @@ class TwikitScraper(ScraperInterface):
             print(f"Unexpected error after {page_count} pages, {len(results)} tweets collected: {e}")
 
         print(f"Fetched relevant: {len(results)}, Dropped irrelevant: {dropped_irrelevant}, "
-              f"Pages: {page_count}, Dropped Short: {dropped_short}, Dropped Duplicates: {dropped_duplicates}, "
+              f"Pages: {page_count}, Dropped Short: {dropped_short}, Dropped Duplicates: {dropped_duplicates}, mode: {mode}, "
               f"Rate limited:{rate_limited}, Stalled:{stalled}, Cooldowns used: {cooldown_count}")
         elapsed = time.monotonic() - start_time
         print(f"Total time taken: {elapsed:.2f}s ({elapsed/60:.2f} min)")
 
-        try:
-            with open("last_run.csv", "w", newline="", encoding="utf-8") as f:
-                writer = csv.DictWriter(f, fieldnames=[
-                    "tweet_id", "text", "author", "created_at",
-                    "favorite_count", "retweet_count", "language",
-                ])
-                writer.writeheader()
-                for t in results:
-                    writer.writerow({
-                        "tweet_id": t.tweet_id,
-                        "text": t.text,
-                        "author": t.author,
-                        "created_at": t.created_at,
-                        "favorite_count": t.favorite_count,
-                        "retweet_count": t.retweet_count,
-                        "language": t.language,
-                    })
 
-            with open("last_run_rejected.csv", "w", newline="", encoding="utf-8") as f:
-                writer = csv.DictWriter(f, fieldnames=["tweet_id", "text", "reason", "language"])
-                writer.writeheader()
-                writer.writerows(rejected)
-
-            print(f"Saved {len(results)} tweets to last_run.csv, "
-                  f"{len(rejected)} rejected tweets to last_run_rejected.csv")
-        except Exception as e:
-            print(f"Failed to write CSV files: {e}")
-
-        return results[:limit]
+        return results[:limit],rejected,pages_since_cooldown

@@ -1,14 +1,14 @@
 from database.connection import get_connection
 
 
-def create_search(topic: str, requested_limit: int) -> int:
+def create_search(topic: str, requested_limit: int, mode: str) -> int:
     connection = get_connection()
     cursor = connection.cursor()
 
     cursor.execute("""
-        INSERT INTO searches (topic, requested_limit)
-        VALUES (?, ?)
-    """, (topic, requested_limit))
+        INSERT INTO searches (topic, requested_limit,mode)
+        VALUES (?, ?, ?)
+    """, (topic, requested_limit, mode))
 
     search_id = cursor.lastrowid
 

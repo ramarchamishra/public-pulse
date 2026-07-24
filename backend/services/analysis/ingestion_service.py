@@ -13,14 +13,15 @@ class IngestionService:
     async def ingest_topic(
         self,
         topic: str,
-        limit: int = 100
+        limit: int = 100,
+        mode: str = "Latest"
     ):
         
-        search_id = create_search(topic, limit)
+        search_id = create_search(topic, limit, mode)
 
         await self.scraper.load_session()
 
-        tweets = await self.scraper.get_tweets(topic, limit)
+        tweets = await self.scraper.get_tweets(topic=topic, limit=limit, mode=mode)
 
         for tweet in tweets:
 
