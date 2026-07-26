@@ -1,0 +1,496 @@
+Loaded 1500 tweets
+Embeddings generated
+
+=== Full Topic Info ===
+
+    Topic  Count                                                                                         Name                                                                                                                                                                                      Representation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Representative_Docs
+0      -1    285                                                                  -1_police_protest_cjp_delhi                                                                                                            [police, protest, cjp, delhi, https, cjp protest, delhi police, students, people, india]  [@PankajjKashyapp Lion since 2014_\n-Intolerance campaign\n-Award return show by Urban Naxals\n-Shaheen Bagh\n-Delhi Riots\n-Fake Farmers Protest\n-Republic Day Riots\n-Manipur Kuki Terrorism\n-West Bengal Anti-Hindu Riots by TMC\n-AAP/CJP rampage\n\nHardly any tough action after winning elections everywhere https://t.co/ekBzbNZPfs, @Sanjay_Dixit Since 2014_\n-Intolerance campaign\n-Award return show by Urban Naxals\n-Shaheen Bagh\n-Delhi Riots\n-Fake Farmers Protest\n-Republic Day Riots\n-Manipur Kuki Terrorism\n-West Bengal Anti-Hindu Riots by TMC\n-AAP-CJP rampage\n\nHardly any concrete action after winning elections everywhere🤐 https://t.co/M0723MKhTo, @VijayGajeraO Since 2014_\n-Intolerance campaign\n-Award return show by Urban Naxals\n-Shaheen Bagh\n-Delhi Riots\n-Fake Farmers Protest\n-Republic Day Riots\n-Manipur Kuki Terrorism\n-West Bengal Anti-Hindu Riots by TMC\n-AAP-CJP rampage\n\nHardly any concrete action after winning elections everywhere🤐 https://t.co/MMWfBZrmjV]
+1       0    128                                                          0_cockroach_party_janta party_janta                                                                                             [cockroach, party, janta party, janta, cockroach janta, party cjp, delhi, https, mantar, jantar mantar]                                                                                           [After talks with the government, Cockroach Janta Party (CJP) National Spokesperson Ashutosh Ranka said all of the group's demands have been accepted and appealed to protesters at Delhi's Jantar Mantar to withdraw peacefully and return home safely. He said the party would share https://t.co/iTsyp24INW, #WATCH | Delhi: After talks with the government, Cockroach Janta Party's National Spokesperson Ashutosh Ranka says, "We held three rounds of discussions with the government delegation. Our protest at Jantar Mantar, which was going on for several days, had three main demands: https://t.co/erlp8eXgBz, #WATCH | Delhi: After talks with the government, Cockroach Janta Party's National Spokesperson Ashutosh Ranka says, "We held three rounds of discussions with the government delegation. Our protest at Jantar Mantar, which was going on for several days, had three main demands: https://t.co/6rJcrkaTiH]
+2       1    113                                            1_pradhan_dharmendra_dharmendra pradhan_education                                                                   [pradhan, dharmendra, dharmendra pradhan, education, education minister, minister, resignation, resigned, union education, https]                                                                                          [After Union Education Minister Dharmendra Pradhan’s resignation, a celebratory atmosphere was witnessed at the protest site in New Delhi’s Jantar Mantar. CJP founder Abhijeet Dipke and other protesters celebrated, calling it a major victory for their movement.\n\n#CJPProtest https://t.co/NZdfDQiqcq, VIDEO | Delhi: As Union Education Minister Dharmendra Pradhan posts a letter, saying he has sent his resignation to PM Modi, CJP founder Abhijeet Dipke says, “We have done it. Dharmendra Pradhan has resigned.”\n\n(Full video available on PTI Videos - https://t.co/n147TvrpG7) https://t.co/M7XmkgYhRG, VIDEO | Delhi: As Union Education Minister Dharmendra Pradhan posts a letter, saying he has sent his resignation to PM Modi, CJP founder Abhijeet Dipke says, “Dharmendra Pradhan has resigned. This is the proof that if you don’t get scared, if you don’t bow down in front of this https://t.co/ztgGjB21uu]
+3       2     86                                                          2_spokesperson_nadda_union_jp nadda                                                                                              [spokesperson, nadda, union, jp nadda, jp, union ministers, ministers, meeting, talks, jitendra singh]                                                                                                                                                                [Delhi | Union Ministers JP Nadda and Jitendra Singh hold third round of talks with Cockroach Janta Party's Chief Spokesperson Saurav Das and its National Spokesperson Ashutosh Ranka. \n🪳✊ #CJP Protest #Live Updates ➠ https://t.co/uzcG4xQiaM 📋 https://t.co/D8IYtzM577, #IGR: Union Ministers JP Nadda and Jitendra Singh held a third round of talks with CJP Chief Spokesperson Saurav Das and National Spokesperson Ashutosh Ranka in New Delhi, as the government continued negotiations with protest leaders following Pradhan's resignation. https://t.co/djQ0wTjZNj, #WATCH | Delhi: Union Ministers JP Nadda and Jitendra Singh hold third round of talks with Cockroach Janta Party's Chief Spokesperson Saurav Das and its National Spokesperson Ashutosh Ranka. \n🪳✊ #CJP Protest #Live Updates ➠ https://t.co/uzcG4xQiaM 📋 https://t.co/xd1YCYBIzI]
+4       3     76                                                  3_metro_stations_delhi metro_metro stations                                                                                                             [metro, stations, delhi metro, metro stations, 18, amid, shut, closed, amid cjp, delhi]                                                                                     [For the fourth consecutive day, 18 Delhi Metro stations in central Delhi remain closed due to heightened security around the ongoing CJP protest near Jantar Mantar. \n\nServices are suspended from 7:30 AM until further notice, while interchange facilities remain available at Rajiv https://t.co/gRqQhn35SC, Eighteen Delhi Metro stations in central Delhi remained closed for the fourth consecutive day on Saturday due to security concerns amid the ongoing CJP-led protest at Jantar Mantar. According to the DMRC, the stations will remain shut from 7:30 am until further notice, while https://t.co/NyWM1PROpe, STORY | 18 Delhi Metro stations remain shut for fourth straight day amid CJP protest\n\nEighteen Delhi Metro stations in central Delhi remained closed for the fourth straight day on Saturday due to security concerns amid the ongoing Cockroach Janta Party (CJP) protest near the https://t.co/ShVEgl7lpM]
+5       4     57                                                           4_cjp protest_journalist_https_cjp                                                                                                       [cjp protest, journalist, https, cjp, covering, protest, media, prime, prime minister, nepal]                                                                              [She is Instagram influencer Sunita Bhatt with over 200K+ followers. She has been making anti-BJP videos for a long time and has been covering the CJP protest since day one.\n\nNow yesterday, she was threatening the Delhi Police to beat them with lathis.\n#GenZWithBharat \n#PMModi https://t.co/ClmFHNS6fZ, WTF Is Happening At CJP Protest?\n\nA journalist was randomly declared "Godi Media". \n\nAnd brutally beaten by a hundreds of CJP goons.\n\nAnd people on camera are celebrating these mob attacks on journalists.\n\nInstead of publicly conedming these mob attacks, CJP is shamelessly https://t.co/0p63fbqPew, 🚨 She is Instagram influencer Sunita Bhatt with over 200K+ followers. She has been making anti-BJP videos for a long time and has been covering the CJP protest since day one.\n\nNow yesterday, she was threatening the Delhi Police to beat them with lathis. Just a few hours later, https://t.co/QJgbkcFgBj]
+6       5     50                                                                  5_neet_protest_students_cjp                                                                                                             [neet, protest, students, cjp, student, cjp protest, tamil, tamil nadu, nadu, movement]                                                                                                          [Urgent attention is needed regarding the CJP Tamil Nadu protest.\n\n@abhijeet_dipke @Wangchuk66 @Cockroachisback @CJP_for_India \n\nPlease review what is happening under the CJP banner in Tamil Nadu.  A protest supposedly demanding a fair NEET has been diverted into personal attacks https://t.co/syI1GabwQj, 1) CJP Delhi protest has 3 clear demands and Ban NEET is NOT one of them\n\n2) So how is demanding Ban NEET in Tamil Nadu called a supportive protest for CJP\n\n3)  Pushing Ban NEET and singing about religious riots is this really a student support protest. https://t.co/Cj8SFK0O33, @VKreflections @MacroMatrix1 CJP Delhi demands a fair NEET while CJP Chennai demands a ban on NEET. Did you listen to his full speech? He covered all the issues related to NEET and the protest. Additionally, he also addressed the Tamil Nadu govt’s lack of action on Dalit issues in his own stage.]
+7       6     45                                                                       6_india_ki_protest_cjp                                                                                                                           [india, ki, protest, cjp, world, delhi, media, cjp protest, common, govt]                                                                                                                                                                                                                                                     [@Reuters Thank you world for showing the real picture of India. Mainstream media is sold out or spineless. We common people now depend on you and social media. Keep supporting the #CJP protest at #JantarMantar, New Delhi and across #India #World🙏, @AP Thank you world for showing the real picture of India.  Mainstream media is sold out (to Moti) or spineless. We common people now depend on you and social media. Keep supporting the #CJP protest at #JantarMantar, New Delhi and across #India #World🙏, @business Thank you world for showing the real picture of India. Mainstream media is sold out or spineless. We common people now depend on you and social media. Keep supporting the #CJP protest at #JantarMantar, New Delhi and across #India #World🙏]
+8       7     53                                                         7_stones_police_jantar mantar_mantar                                                                                                               [stones, police, jantar mantar, mantar, jantar, cjp, nihang, pelting, protest, https]                                                                            [Now even Chandrashekhar Azad Ravan is openly expressing his anger at these CJP protesters.\n\nAccording to him, they are not holding a peaceful protest. Instead, they deliberately clash with the police and throw bottles and stones at them.\n\nHe is also saying, "Then why do you https://t.co/wT8P5pZ5qO, A girl went to support students at Jantar Mantar.\n\nListen to her experience.\n\n- Police was standing peacefully\n- Some CJP Supporters started throwing stones\n- few moments later more supporters started pelting stones at Police.\n\nSays now the protest is not in control, anti-India https://t.co/DT5G1UwATq, Nihang Sikhs are now beating CJP protesters at Jantar Mantar.\n\nAccording to them, this is no longer a protest. It's a fair. People come here only to hurl abusive slogans, mess around, and throw stones or bottles at the police.\n\nThis is no longer a peaceful protest. They say https://t.co/7y1NOo8xq1]
+9       8     48                                                       8_sonam_wangchuk_sonam wangchuk_strike                                                                                                [sonam, wangchuk, sonam wangchuk, strike, hunger strike, hunger, hospital, ended, abhijeet, protest]                                                                         [A video showing activist Sonam Wangchuk inside Delhi's Safdarjung Hospital has gone viral, capturing moments after he was shifted there from the Jantar Mantar protest site during his hunger strike. The footage shows Wangchuk confronting a police officer and alleging "harassment" https://t.co/isnbuNbIjP, A day after Sonam Wangchuk ended his 26-day hunger strike, the protest at Delhi's Jantar Mantar continues.\n\nProtesters remain gathered at the site, as the CJP presses ahead with its demands, including the resignation of Union Education Minister Dharmendra Pradhan.\n\n#JantarMantar https://t.co/nDx60jDInL, A day after Sonam Wangchuk ended his 26-day hunger strike, the protest at Delhi's Jantar Mantar continues.\n\nProtesters remain gathered at the site, as the CJP presses ahead with its demands, including the resignation of Union Education Minister Dharmendra Pradhan.\n\n#JantarMantar https://t.co/2Yu78gVj4u]
+10      9     50                                               9_police_recognition_facial recognition_facial                                                                             [police, recognition, facial recognition, facial, criminal, delhi police, identified, criminals, frs, criminal records]                                                                             [Students protest in Delhi | Delhi Police Sources say - 130 Police personnel have been injured. 15 FIRs have been registered. About 65 students were injured in the protest. Around 10,000 people on average are present at and around Jantar Mantar, 3000 Police personnel deployed https://t.co/eI8csRNQdR, BIG EXPOSE | CJP Protest\n\n250 criminals visited Protest \nThey created riot like situation \n\nDelhi Police FRS system has identified 250 wanted criminals who allegedly visited the CJP protest site.\n\nSources claim many of them were present to fuel violence and create a riot-like https://t.co/keh0ruQurD, BIG EXPOSE | CJP Protest\n\n250 criminals visited Protest \nThey created riot like situation \n\nDelhi Police FRS system has identified 250 wanted criminals who allegedly visited the CJP protest site.\n\nSources claim many of them were present to fuel violence and create a riot-like https://t.co/69QfmaZaMc]
+11     10     37                                                          10_mantar_jantar mantar_jantar_live                                                                                                               [mantar, jantar mantar, jantar, live, https, cjp protest, protest, cjp, dipke, watch]                                                                                                                                                                                                                                      [EPSIODE:1 | Black Day For Indian Democracy 💔🥲 | CJP PROTEST | Abhijeet Dipke | CJP Protest Jantar Mantar | Delhi Protest | 20th July 2026 | CJP latest News | Priyanshu Rai \n\n#facts #abhijeetdipke #cjp #cjpprotest #delhiprotest #jantarmantar #cjp2026 #priyanshurai https://t.co/Uvu7Qw8UV9, Dr @Swamy39\nCJP Jantar Mantar Protest Live Updates: Round 2 of talks, Centre, CJP representatives meet amid student protests🔴🔴\n@jagdishshetty\n https://t.co/Lto1DKleau, ☀Delhi: Jantar Mantar completely barricaded and sealed as CJP-led protest continues; heavy security deployed at the site.\n\n☀AI deepfake video of Union Minister Piyush Goyal circulating on social media. Govt says many links taken down.\n\n☀Dipke posts: Have been diagnosed with https://t.co/fMgrtxXTx3]
+12     11     43                                                                  11_food_police_water_mantar                                                                                                            [food, police, water, mantar, jantar mantar, jantar, delhi police, security, delhi, cjp]                                                                                                                                                                                                                                                                    [No food, no water? #DelhiPolice advisory asks app-based mobility, food delivery, quick-commerce and logistics companies to regulate or suspend services in #JantarMantar area, #CJP says govt wants to 'lay siege' to student protest site\nhttps://t.co/suJPXuFB9H, VIDEO | Delhi: Jantar Mantar completely barricaded and sealed as CJP-led protest continues; heavy security deployed at the site.\n\n(Full video  available on PTI Videos - https://t.co/n147TvrpG7) https://t.co/mbg7pNdlKh, VIDEO | Jantar Mantar Protest: "Food and water being stopped', says CJP spokesperson Saurav Das in heated argument with Delhi Police.\n\n#JantarMantarProtest #CJP\n\n(Full video available on PTI Videos - https://t.co/n147TvrpG7) https://t.co/JDrzIUjhdO]
+13     12     41                                                                       12_modi_ji_modi ji_bjp                                                                                                                    [modi, ji, modi ji, bjp, narendra modi, narendra, modi govt, shah, protest, cjp]                                                                            [Did PM Modi and HM Amit Shah lose to the CJP?\n\nMy answer is no.\n\nThe BJP only takes a step back when it needs to move 10 steps forward. The Cockroach Janata Party was completely hijacked, gradually infiltrated by extremist organizations, leftist ideology, and the Deep State. They https://t.co/Dcfvt90bRi, @Sanjay_Dixit 1. Kishan Protest \n2. Shaheen Bagh \n3. Delhi Riots \nNow CJP .\n\nI  feel Modi is done now . he needs to pass the baton to Amit Shah ji and Yogi ji .\n\nResignation is not wrong but the timing is wrong and he  ultimately surrenders to streets not genuine students 🙏, During peaceful UGC protest of Savarn Hindus : \n&gt; Ajeet Bharti was house arrested. \n&gt; Ruchi Tiwari was dragged on roads.\n&gt; BJP govt remained silent.\n\nDuring violant protest of CJP &amp; Bhim Army : \n&gt; CJP leaders were invited.\n&gt; Narendra Modi responded. \n&gt; Dharmendra Pradhan https://t.co/6V4HxdfX9x]
+14     13     42                                                           13_nia_court_high court_delhi high                                                                                                               [nia, court, high court, delhi high, high, pil, seeking, probe, pil seeking, rejects]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [#BREAKING: Delhi High Court rejects PIL Seeking NIA Probe into CJP Protest at Jantar Mantar in New Delhi., #BREAKING: Delhi High Court rejects PIL Seeking NIA Probe into CJP Protest at Jantar Mantar in New Delhi., #BREAKING: Delhi High Court rejects PIL Seeking NIA Probe into CJP Protest at Jantar Mantar in New Delhi.]
+15     14     31                                                         14_https_jantarmantar_delhi cjp_neet                                                                                                [https, jantarmantar, delhi cjp, neet, delhi, cjp, protest, cjpprotest, jantarmantar protest, video]                                                                                                                                                                    [Who Entered The NEET Protest Crowd?\n\n#jantarmantar #cjpprotest #cjp #delhi #delhiprotest #jantarmantarprotest #neet #dharmendrapradhan #sonamwangchuk #paperLeak #studentprotest #rahulgandhi https://t.co/4ToPXWEwjp, @Cockroachisback 📢 The Prime Minister is standing with students.\n\n》NEET Topper backs PM Modi’s (@narendramodi) assurance and expresses confidence in reforms to safeguard the integrity of NEET\n\n》The real NEET QUALIFIED Students who shown there support protest against paper leak now they saying https://t.co/S4zP1NWIUp, CJP, BJP பேச்சுவார்த்தை தோல்வியா? Modi Resign Demand? CJP's Explosive Announcement Over NEET Protest | CM Vijay | Journalist Kavitha interview \n\n#NEET #JantarMandar #CJPProtest #CJP #Modi #delhi #JPNadda #delhiprotest #BANNEET #CMVijay‌ #TVKVijay‌Fails #Arakalagam https://t.co/d7RQ1Znen0]
+16     15     29                                                     15_jantar mantar_mantar_jantar_agitation                                                                                                     [jantar mantar, mantar, jantar, agitation, cjp, cjp calls, cjp announced, das, assurances, end]                                                                                                                                                                                                                     [CJP Jantar Mantar Protest Live Updates: 'We withdraw agitation in good faith,' say CJP leaders at joint presser with Centre\n https://t.co/wiuPAf1UFc\nDownload the TOI app now:\nhttps://t.co/Av4VWorOpx, CJP calls off protest but now their politics will start 😂\n\nCJP has announced to END the Jantar Mantar agitation after Govt assurances.\n\nFinally, Delhi will breathe free 🇮🇳\n\n#DharmendraPradhan #RestorePeace\n#TimeToEndProtest \n#NEETExamProtest\n#जंतर_मंतर_ब्रेकिंग_न्यूज, CJP calls off protest but now their politics will start 😂\n\nCJP has announced to END the Jantar Mantar agitation after Govt assurances.\n\nFinally, Delhi will breathe free 🇮🇳\n\n#DharmendraPradhan #RestorePeace\n#TimeToEndProtest \n#NEETExamProtest\n#जंतर_मंतर_ब्रेकिंग_न्यूज https://t.co/rnbwnauQCk]
+17     16     25  16_cockroachjantaparty protest_sonamwangchuk cjp_modi delhi_dharmendrapradhan sonamwangchuk  [cockroachjantaparty protest, sonamwangchuk cjp, modi delhi, dharmendrapradhan sonamwangchuk, protest india, dharmendrapradhan, cockroachjantaparty, sonamwangchuk, abhijeetdipke, genzwithbharat]                                                                                                                                                                                                                                                                                                                                                                                               [Gorlllss \n\n#GenZWithBharat #NEET #Modi #Delhi #Dharmendrapradhan #SonamWangchuk #CJP #CJPMovement #AbhijeetDipke #CockroachJantaParty #Protest #India #ModiGovernment #BJP #genz #jantarmantar https://t.co/u6DwQMBSs2, It's awareness. \n\n#GenZWithBharat #NEET #Modi #Delhi #Dharmendrapradhan #SonamWangchuk #CJP #CJPMovement #AbhijeetDipke #CockroachJantaParty #Protest #India #ModiGovernment #BJP #genz #jantarmantar, Creativity \n#GenZWithBharat #NEET #Modi #Delhi #Dharmendrapradhan #SonamWangchuk #CJP #CJPMovement #AbhijeetDipke #CockroachJantaParty #Protest #India #ModiGovernment #BJP #genz #jantarmantar]
+18     17     28                                                    17_cjp protest_protest https_protest_best                                                                                                                  [cjp protest, protest https, protest, best, cjp, https, reality, real, reel, gave]                                                                                                                                                                                                                                                                                                                                                                                                                                     [Never thought that this scene will ever come true from Reel life to Real life !!😂\n\nCJP protest in a nut shell.🔥 https://t.co/YEgwAtfPBL, The best video of the CJP protest so far. \n\nYou might be able to fool Gen Z, but an older person cannot be manipulated like that. https://t.co/3Izalpw9Ay, This kid is literally becoming a nightmare for left Liberals 🔥\n\nHe is EXPOSING CJP Protest left right and centre with deep research 🔥\n\nLiberals tried to silence him by copyright strike but now he’s ROASTING them at 10x speed.\n\nMore power to him 🙌🔥 https://t.co/ohkpE6nK3K]
+19     18     35                                                    18_police_delhi police_lathi charge_lathi                                                                                                [police, delhi police, lathi charge, lathi, charge, delhi, mantar, jantar mantar, jantar, personnel]                                                                                                                                                                         [A Delhi Police officer was attacked by a crowd of 200–300 people at Jantar Mantar.\n\nFor the last two days, attacks like this have continued. These CJP protesters are the ones creating chaos and disturbing the law and order situation.\n\nShame on Abhijeet Dipke 🤬 https://t.co/u71Z9pz8NW, BREAKING | \n\nDelhi Police Cracks Down on Misinformation Amid CJP Protest\n\nDelhi Police says fake news, AI-generated videos, deepfakes and false social media narratives were used to create panic during the CJP protests at Jantar Mantar.\n\n▪️ No woman died during the July 20 https://t.co/nC3Gry1GYc, #BREAKING: Several cops injured in fresh violence near Jantar Mantar protest site in New Delhi. Mob snatched baton sticks of cops and RAF and attacked police personnel. Situation not fully under control yet. https://t.co/V2jbF14ogF]
+20     19     24                                                         19_demands_accepted_return home_home                                                                                       [demands, accepted, return home, home, protesters, met, protesters return, return, calls protest, government]                                                                                                                             [CJP has called off its protest with immediate effect after the third round of talks with the government. At a joint press conference in New Delhi, both sides confirmed an agreement had been reached, and CJP urged protesters to return home peacefully. https://t.co/a8KeB8OnQq, #WATCH | CJP has called off its protest with immediate effect after the third round of talks with the government. At a joint press conference in New Delhi, both sides confirmed an agreement had been reached, and CJP urged protesters to return home peacefully. https://t.co/g85le8y7M7, #BREAKINGNEWS | \n#CJP calls off its protest with immediate effect after the third round of talks with the government. \nAt a joint press conference in New Delhi, both sides confirmed an agreement had been reached, and CJP urged protesters to return home peacefully.\n\n#NEETPAPERLEAK https://t.co/86M78aN3RG]
+21     20     30                                                    20_riots_farmers_farmers protest_republic                                                                                        [riots, farmers, farmers protest, republic, delhi riots, shaheen, shaheen bagh, bagh, winning, republic day]                                                                                                                                    [Republic TV at 8:00 AM: 🇺🇸Soros and deep agents are behind the Delhi protest\n\nRepublic TV at 2:00 PM: 🇨🇳China is scripting regime change in India via the Delhi protest\n\nRepublic TV at 7:00 PM: 🇧🇩Bangladesh is funding the protest https://t.co/DoPIf4f1zr, @republic Can you put these videos on a dedicated web-page?  Else Global Tech will gradually scrub them away.\n\nThis is evidence.\n\nFarmers protest - security forces hurt: no real penalty on rioters.\n\nDelhi Riots - same\n\nCJP riots - must ensure there's accountability\n\n@PMOIndia @HMOIndia, 🚨Beware India !!  Deep State Conspiracy ! \nGeorge Soros has Destroyed 40+Countries in the World ! \n\n🚨Now He wants to Destroy India And Some Traitors of India are Helping him in his Project ! \n\n➡️ 2019 -  Anti-CAA Riots ! \n➡️ 2020 - Delhi Riots ! \n➡️ 2021 -  Farmer Protests ! https://t.co/mzaaBHJEZE]
+22     21     25                                                                    21_guns_use_used_injuries                                                                                                                              [guns, use, used, injuries, seeks, tear gas, tear, inside, gas, rahul]                                                                                       [Pellet gun controversy at the CJP protest | Protesters allege a pellet gun attack, while Delhi Police deny using pellet guns.\n\nWho is accountable for the pellet injuries?\n\nTune in for more in this report.\n\n#NEETPaperLeakCase #StudentProtest #Education #Delhi #JantarMantar https://t.co/obXZrrrNDc, #Quickplainers | On July 20, police used lathis and tear gas on those who marched from Jantar Mantar toward Parliament over NEET exam paper leaks. At least 3 people showed pellet wounds, including one who may lose his eyesight. Delhi Police has denied using pellet guns, but a https://t.co/LbQN6xm7lI, "When I went to the CJP protest, I never expected I'd be shot [by a pellet gun]. I thought pellet guns were used only in Kashmir. I had gone to take part in the march to Parliament. Amid the tear gas shelling during the clash between protesters and police near Jantar Mantar, I https://t.co/330g23FFnV]
+23     22     21                                                            22_delhi police_needs_police_2026                                                                                                     [delhi police, needs, police, 2026, caste, samrat, file fir, people supporting, delhi, deserve]                                                                                                                                                                                                                                                                                                                                     [@Kanchanyadav000 says general caste deserve to be implicated in false cases,same people are supporting anarchy of CJP protest in Delhi \n@BJP4Bihar @samrat @officecmbihar @bihar_police needs to file an FIR against her, @UnSubtleDesi @Kanchanyadav000 says general caste deserve to be implicated in false cases,same people are supporting anarchy of CJP protest in Delhi \n@BJP4Bihar @samrat @officecmbihar @bihar_police needs to file an FIR against her, @Kanchanyadav000 says general caste deserve to be implicated in false cases,same people are supporting anarchy of CJP protest in Delhi \n@BJP4Bihar @samrat @officecmbihar @bihar_police needs to file an FIR against her]
+24     23     27                                                     23_dipke_abhijeet_abhijeet dipke_founder                                                                             [dipke, abhijeet, abhijeet dipke, founder, cjp founder, founder abhijeet, cockroach, diagnosed, cockroach janta, janta]                                                                                                                                                                                       [Delhi: Cockroach Janta Party (CJP) founder Abhijeet Dipke broke down in tears at the Jantar Mantar protest site during the ongoing demonstration following activist Sonam Wangchuk's removal from the venue by the Delhi Police https://t.co/wfgfDoZVHb, New Delhi: Cockroach Janta Party (#CJP) founder #AbhijeetDipke on Saturday said he had been diagnosed with typhoid but vowed that his illness would not slow the movement seeking Union Education Minister #DharmendraPradhan's resignation. I\n\nhttps://t.co/gxlxfIbjs1, 🎥 | Cockroach Janta Party (CJP) founder Abhijeet Dipke on Saturday shared an update on his health, saying he has been diagnosed with typhoid. Despite his illness, he asserted that the nationwide protests demanding the resignation of Union Minister Dharmendra Pradhan will https://t.co/a2CCJwJmKj]
+25     24     27                                                           24_cockroach_party_party cjp_paper                                                                                 [cockroach, party, party cjp, paper, education minister, neet paper, cockroach janta, janta, janta party, minister]                                                                                                                                                                 [#InPics | People gathered in Kolkata in solidarity with the Cockroach Janta Party's (CJP) protest at Jantar Mantar in New Delhi, demanding the resignation of Union Education Minister Dharmendra Pradhan over alleged examination paper leaks https://t.co/YeR3RxqtTH, Cockroach Janta Party (CJP) supporters, and Volunteers protest seeking resignation of Union Education Minister Dharmendra Pradhan over alleged examination irregularities and NEET paper leak in New Delhi on July 24, 2026.\n\n📸  : Shashi Shekhar Kashyap https://t.co/uTO7lc5ZKo, Supporters of the Cockroach Janata Party (CJP) protest at Jantar Mantar in New Delhi on July 22, 2026, demanding the resignation of Union Education Minister Dharmendra Pradhan over alleged examination irregularities and the NEET paper leak.\n\n📸@msikku153 #shadqureshi https://t.co/vxOTDiVSQO]
+26     25     22                                                       25_murder_delhi police_violence_police                                                                                             [murder, delhi police, violence, police, case, protest violence, charge, firs, 15 firs, attempt murder]                                                                                                                                                                                                                                                                                                                                                                                        [Delhi Cops Add Attempt To Murder Charge In CJP Protest Violence Case\nhttps://t.co/v4Y9SsGqyz https://t.co/u1zJRn7rJU, Delhi Police Add Attempted Murder Charge in FIR Over July 20 NEET Protest Violence   KNOW MORE:  https://t.co/GMkIHmq2dc\n\n@DelhiPolice \n\nDelhi Police have added an attempted murder charge to an FIR over the July 20 protest violence near Parliament, alleging attacks on security, Violence During CJP Protest: Delhi Police Registers 15 FIRs, Attempt to Murder Charge Added\n#DelhiPolice #CJP #StudentProtests #Violence #LawAndOrder #NEET #BreakingNews #Delhi\n@DelhiPolice\nhttps://t.co/Vl59WmqaFB]
+27     26     22                                                                 26_abuse_modi_muslim_exposed                                                                                                                             [abuse, modi, muslim, exposed, caught, har, man, fraud, indian, joined]                                                                             [🚨 Biggest fraud caught red-handed:\n\nHe was roaming at the CJP protest becoming fake priest and eating with a Muslim from the same plate and defaming Hinduism.\n\nNow some Hindu kings caught him and asked him to recite the Gayatri Mantra, but he was unable to answer it and simply https://t.co/mydCL4cz88, CRPF personnel has completely exposed the entire CJP protest.\n\nHe is currently deployed at Jantar Mantar, and every single word he said is absolutely accurate and powerful.\n\nI was deeply moved by what he said, and I believe every Indian should listen to him and understand his https://t.co/ZwAhG9soj1, CRPF personnel has completely exposed the entire CJP protest.\n\nHe is currently deployed at Jantar Mantar, and every single word he said is absolutely accurate and powerful.\n\nI was deeply moved by what he said, and I believe every Indian should listen to him and understand his https://t.co/W3h9NGegAj]
+
+=== Noise Stats ===
+Total docs      : 1500
+Noise docs (-1) : 285 (19.0%)
+Clustered docs  : 1215 (81.0%)
+Num real topics : 27
+
+=== Per-Topic Detail ===
+
+--- Topic -1 (Count: 285) ---
+Keywords: police(0.030), protest(0.028), cjp(0.026), delhi(0.024), https(0.023), cjp protest(0.023), delhi police(0.020), students(0.020), people(0.013), india(0.012)
+Representative docs:
+  [1] @PankajjKashyapp Lion since 2014_
+-Intolerance campaign
+-Award return show by Urban Naxals
+-Shaheen Bagh
+-Delhi Riots
+-Fake Farmers Protest
+-Republic Day Riots
+-Manipur Kuki Terrorism
+-West Bengal Anti-Hindu Riots by TMC
+-AAP/CJP rampage
+
+Hardly any tough action after winning elections everywhere https://t.co/ekBzbNZPfs
+  [2] @Sanjay_Dixit Since 2014_
+-Intolerance campaign
+-Award return show by Urban Naxals
+-Shaheen Bagh
+-Delhi Riots
+-Fake Farmers Protest
+-Republic Day Riots
+-Manipur Kuki Terrorism
+-West Bengal Anti-Hindu Riots by TMC
+-AAP-CJP rampage
+
+Hardly any concrete action after winning elections everywhere🤐 https://t.co/M0723MKhTo
+  [3] @VijayGajeraO Since 2014_
+-Intolerance campaign
+-Award return show by Urban Naxals
+-Shaheen Bagh
+-Delhi Riots
+-Fake Farmers Protest
+-Republic Day Riots
+-Manipur Kuki Terrorism
+-West Bengal Anti-Hindu Riots by TMC
+-AAP-CJP rampage
+
+Hardly any concrete action after winning elections everywhere🤐 https://t.co/MMWfBZrmjV
+
+--- Topic 0 (Count: 128) ---
+Keywords: cockroach(0.052), party(0.046), janta party(0.043), janta(0.043), cockroach janta(0.042), party cjp(0.028), delhi(0.025), https(0.023), mantar(0.023), jantar mantar(0.023)
+Representative docs:
+  [1] After talks with the government, Cockroach Janta Party (CJP) National Spokesperson Ashutosh Ranka said all of the group's demands have been accepted and appealed to protesters at Delhi's Jantar Mantar to withdraw peacefully and return home safely. He said the party would share https://t.co/iTsyp24INW
+  [2] #WATCH | Delhi: After talks with the government, Cockroach Janta Party's National Spokesperson Ashutosh Ranka says, "We held three rounds of discussions with the government delegation. Our protest at Jantar Mantar, which was going on for several days, had three main demands: https://t.co/erlp8eXgBz
+  [3] #WATCH | Delhi: After talks with the government, Cockroach Janta Party's National Spokesperson Ashutosh Ranka says, "We held three rounds of discussions with the government delegation. Our protest at Jantar Mantar, which was going on for several days, had three main demands: https://t.co/6rJcrkaTiH
+
+--- Topic 1 (Count: 113) ---
+Keywords: pradhan(0.062), dharmendra(0.058), dharmendra pradhan(0.058), education(0.049), education minister(0.047), minister(0.044), resignation(0.043), resigned(0.030), union education(0.028), https(0.026)
+Representative docs:
+  [1] After Union Education Minister Dharmendra Pradhan’s resignation, a celebratory atmosphere was witnessed at the protest site in New Delhi’s Jantar Mantar. CJP founder Abhijeet Dipke and other protesters celebrated, calling it a major victory for their movement.
+
+#CJPProtest https://t.co/NZdfDQiqcq
+  [2] VIDEO | Delhi: As Union Education Minister Dharmendra Pradhan posts a letter, saying he has sent his resignation to PM Modi, CJP founder Abhijeet Dipke says, “We have done it. Dharmendra Pradhan has resigned.”
+
+(Full video available on PTI Videos - https://t.co/n147TvrpG7) https://t.co/M7XmkgYhRG
+  [3] VIDEO | Delhi: As Union Education Minister Dharmendra Pradhan posts a letter, saying he has sent his resignation to PM Modi, CJP founder Abhijeet Dipke says, “Dharmendra Pradhan has resigned. This is the proof that if you don’t get scared, if you don’t bow down in front of this https://t.co/ztgGjB21uu
+
+--- Topic 2 (Count: 86) ---
+Keywords: spokesperson(0.043), nadda(0.043), union(0.038), jp nadda(0.037), jp(0.037), union ministers(0.035), ministers(0.035), meeting(0.033), talks(0.032), jitendra singh(0.032)
+Representative docs:
+  [1] Delhi | Union Ministers JP Nadda and Jitendra Singh hold third round of talks with Cockroach Janta Party's Chief Spokesperson Saurav Das and its National Spokesperson Ashutosh Ranka. 
+🪳✊ #CJP Protest #Live Updates ➠ https://t.co/uzcG4xQiaM 📋 https://t.co/D8IYtzM577
+  [2] #IGR: Union Ministers JP Nadda and Jitendra Singh held a third round of talks with CJP Chief Spokesperson Saurav Das and National Spokesperson Ashutosh Ranka in New Delhi, as the government continued negotiations with protest leaders following Pradhan's resignation. https://t.co/djQ0wTjZNj
+  [3] #WATCH | Delhi: Union Ministers JP Nadda and Jitendra Singh hold third round of talks with Cockroach Janta Party's Chief Spokesperson Saurav Das and its National Spokesperson Ashutosh Ranka. 
+🪳✊ #CJP Protest #Live Updates ➠ https://t.co/uzcG4xQiaM 📋 https://t.co/xd1YCYBIzI
+
+--- Topic 3 (Count: 76) ---
+Keywords: metro(0.112), stations(0.085), delhi metro(0.080), metro stations(0.074), 18(0.057), amid(0.052), shut(0.049), closed(0.046), amid cjp(0.040), delhi(0.040)
+Representative docs:
+  [1] For the fourth consecutive day, 18 Delhi Metro stations in central Delhi remain closed due to heightened security around the ongoing CJP protest near Jantar Mantar. 
+
+Services are suspended from 7:30 AM until further notice, while interchange facilities remain available at Rajiv https://t.co/gRqQhn35SC
+  [2] Eighteen Delhi Metro stations in central Delhi remained closed for the fourth consecutive day on Saturday due to security concerns amid the ongoing CJP-led protest at Jantar Mantar. According to the DMRC, the stations will remain shut from 7:30 am until further notice, while https://t.co/NyWM1PROpe
+  [3] STORY | 18 Delhi Metro stations remain shut for fourth straight day amid CJP protest
+
+Eighteen Delhi Metro stations in central Delhi remained closed for the fourth straight day on Saturday due to security concerns amid the ongoing Cockroach Janta Party (CJP) protest near the https://t.co/ShVEgl7lpM
+
+--- Topic 4 (Count: 57) ---
+Keywords: cjp protest(0.037), journalist(0.032), https(0.031), cjp(0.031), covering(0.030), protest(0.030), media(0.029), prime(0.028), prime minister(0.028), nepal(0.028)
+Representative docs:
+  [1] She is Instagram influencer Sunita Bhatt with over 200K+ followers. She has been making anti-BJP videos for a long time and has been covering the CJP protest since day one.
+
+Now yesterday, she was threatening the Delhi Police to beat them with lathis.
+#GenZWithBharat 
+#PMModi https://t.co/ClmFHNS6fZ
+  [2] WTF Is Happening At CJP Protest?
+
+A journalist was randomly declared "Godi Media". 
+
+And brutally beaten by a hundreds of CJP goons.
+
+And people on camera are celebrating these mob attacks on journalists.
+
+Instead of publicly conedming these mob attacks, CJP is shamelessly https://t.co/0p63fbqPew
+  [3] 🚨 She is Instagram influencer Sunita Bhatt with over 200K+ followers. She has been making anti-BJP videos for a long time and has been covering the CJP protest since day one.
+
+Now yesterday, she was threatening the Delhi Police to beat them with lathis. Just a few hours later, https://t.co/QJgbkcFgBj
+
+--- Topic 5 (Count: 50) ---
+Keywords: neet(0.069), protest(0.041), students(0.037), cjp(0.034), student(0.032), cjp protest(0.025), tamil(0.025), tamil nadu(0.022), nadu(0.022), movement(0.021)
+Representative docs:
+  [1] Urgent attention is needed regarding the CJP Tamil Nadu protest.
+
+@abhijeet_dipke @Wangchuk66 @Cockroachisback @CJP_for_India 
+
+Please review what is happening under the CJP banner in Tamil Nadu.  A protest supposedly demanding a fair NEET has been diverted into personal attacks https://t.co/syI1GabwQj
+  [2] 1) CJP Delhi protest has 3 clear demands and Ban NEET is NOT one of them
+
+2) So how is demanding Ban NEET in Tamil Nadu called a supportive protest for CJP
+
+3)  Pushing Ban NEET and singing about religious riots is this really a student support protest. https://t.co/Cj8SFK0O33
+  [3] @VKreflections @MacroMatrix1 CJP Delhi demands a fair NEET while CJP Chennai demands a ban on NEET. Did you listen to his full speech? He covered all the issues related to NEET and the protest. Additionally, he also addressed the Tamil Nadu govt’s lack of action on Dalit issues in his own stage.
+
+--- Topic 6 (Count: 45) ---
+Keywords: india(0.037), ki(0.036), protest(0.032), cjp(0.031), world(0.029), delhi(0.028), media(0.026), cjp protest(0.025), common(0.022), govt(0.022)
+Representative docs:
+  [1] @Reuters Thank you world for showing the real picture of India. Mainstream media is sold out or spineless. We common people now depend on you and social media. Keep supporting the #CJP protest at #JantarMantar, New Delhi and across #India #World🙏
+  [2] @AP Thank you world for showing the real picture of India.  Mainstream media is sold out (to Moti) or spineless. We common people now depend on you and social media. Keep supporting the #CJP protest at #JantarMantar, New Delhi and across #India #World🙏
+  [3] @business Thank you world for showing the real picture of India. Mainstream media is sold out or spineless. We common people now depend on you and social media. Keep supporting the #CJP protest at #JantarMantar, New Delhi and across #India #World🙏
+
+--- Topic 7 (Count: 53) ---
+Keywords: stones(0.046), police(0.032), jantar mantar(0.031), mantar(0.031), jantar(0.031), cjp(0.030), nihang(0.030), pelting(0.026), protest(0.025), https(0.024)
+Representative docs:
+  [1] Now even Chandrashekhar Azad Ravan is openly expressing his anger at these CJP protesters.
+
+According to him, they are not holding a peaceful protest. Instead, they deliberately clash with the police and throw bottles and stones at them.
+
+He is also saying, "Then why do you https://t.co/wT8P5pZ5qO
+  [2] A girl went to support students at Jantar Mantar.
+
+Listen to her experience.
+
+- Police was standing peacefully
+- Some CJP Supporters started throwing stones
+- few moments later more supporters started pelting stones at Police.
+
+Says now the protest is not in control, anti-India https://t.co/DT5G1UwATq
+  [3] Nihang Sikhs are now beating CJP protesters at Jantar Mantar.
+
+According to them, this is no longer a protest. It's a fair. People come here only to hurl abusive slogans, mess around, and throw stones or bottles at the police.
+
+This is no longer a peaceful protest. They say https://t.co/7y1NOo8xq1
+
+--- Topic 8 (Count: 48) ---
+Keywords: sonam(0.098), wangchuk(0.095), sonam wangchuk(0.090), strike(0.052), hunger strike(0.051), hunger(0.051), hospital(0.043), ended(0.034), abhijeet(0.028), protest(0.028)
+Representative docs:
+  [1] A video showing activist Sonam Wangchuk inside Delhi's Safdarjung Hospital has gone viral, capturing moments after he was shifted there from the Jantar Mantar protest site during his hunger strike. The footage shows Wangchuk confronting a police officer and alleging "harassment" https://t.co/isnbuNbIjP
+  [2] A day after Sonam Wangchuk ended his 26-day hunger strike, the protest at Delhi's Jantar Mantar continues.
+
+Protesters remain gathered at the site, as the CJP presses ahead with its demands, including the resignation of Union Education Minister Dharmendra Pradhan.
+
+#JantarMantar https://t.co/nDx60jDInL
+  [3] A day after Sonam Wangchuk ended his 26-day hunger strike, the protest at Delhi's Jantar Mantar continues.
+
+Protesters remain gathered at the site, as the CJP presses ahead with its demands, including the resignation of Union Education Minister Dharmendra Pradhan.
+
+#JantarMantar https://t.co/2Yu78gVj4u
+
+--- Topic 9 (Count: 50) ---
+Keywords: police(0.054), recognition(0.053), facial recognition(0.049), facial(0.049), criminal(0.048), delhi police(0.047), identified(0.044), criminals(0.037), frs(0.036), criminal records(0.035)
+Representative docs:
+  [1] Students protest in Delhi | Delhi Police Sources say - 130 Police personnel have been injured. 15 FIRs have been registered. About 65 students were injured in the protest. Around 10,000 people on average are present at and around Jantar Mantar, 3000 Police personnel deployed https://t.co/eI8csRNQdR
+  [2] BIG EXPOSE | CJP Protest
+
+250 criminals visited Protest 
+They created riot like situation 
+
+Delhi Police FRS system has identified 250 wanted criminals who allegedly visited the CJP protest site.
+
+Sources claim many of them were present to fuel violence and create a riot-like https://t.co/keh0ruQurD
+  [3] BIG EXPOSE | CJP Protest
+
+250 criminals visited Protest 
+They created riot like situation 
+
+Delhi Police FRS system has identified 250 wanted criminals who allegedly visited the CJP protest site.
+
+Sources claim many of them were present to fuel violence and create a riot-like https://t.co/69QfmaZaMc
+
+--- Topic 10 (Count: 37) ---
+Keywords: mantar(0.057), jantar mantar(0.057), jantar(0.057), live(0.043), https(0.032), cjp protest(0.029), protest(0.029), cjp(0.028), dipke(0.028), watch(0.028)
+Representative docs:
+  [1] EPSIODE:1 | Black Day For Indian Democracy 💔🥲 | CJP PROTEST | Abhijeet Dipke | CJP Protest Jantar Mantar | Delhi Protest | 20th July 2026 | CJP latest News | Priyanshu Rai 
+
+#facts #abhijeetdipke #cjp #cjpprotest #delhiprotest #jantarmantar #cjp2026 #priyanshurai https://t.co/Uvu7Qw8UV9
+  [2] Dr @Swamy39
+CJP Jantar Mantar Protest Live Updates: Round 2 of talks, Centre, CJP representatives meet amid student protests🔴🔴
+@jagdishshetty
+ https://t.co/Lto1DKleau
+  [3] ☀Delhi: Jantar Mantar completely barricaded and sealed as CJP-led protest continues; heavy security deployed at the site.
+
+☀AI deepfake video of Union Minister Piyush Goyal circulating on social media. Govt says many links taken down.
+
+☀Dipke posts: Have been diagnosed with https://t.co/fMgrtxXTx3
+
+--- Topic 11 (Count: 43) ---
+Keywords: food(0.066), police(0.042), water(0.040), mantar(0.039), jantar mantar(0.039), jantar(0.039), delhi police(0.037), security(0.035), delhi(0.033), cjp(0.026)
+Representative docs:
+  [1] No food, no water? #DelhiPolice advisory asks app-based mobility, food delivery, quick-commerce and logistics companies to regulate or suspend services in #JantarMantar area, #CJP says govt wants to 'lay siege' to student protest site
+https://t.co/suJPXuFB9H
+  [2] VIDEO | Delhi: Jantar Mantar completely barricaded and sealed as CJP-led protest continues; heavy security deployed at the site.
+
+(Full video  available on PTI Videos - https://t.co/n147TvrpG7) https://t.co/mbg7pNdlKh
+  [3] VIDEO | Jantar Mantar Protest: "Food and water being stopped', says CJP spokesperson Saurav Das in heated argument with Delhi Police.
+
+#JantarMantarProtest #CJP
+
+(Full video available on PTI Videos - https://t.co/n147TvrpG7) https://t.co/JDrzIUjhdO
+
+--- Topic 12 (Count: 41) ---
+Keywords: modi(0.097), ji(0.079), modi ji(0.063), bjp(0.053), narendra modi(0.037), narendra(0.037), modi govt(0.032), shah(0.032), protest(0.031), cjp(0.029)
+Representative docs:
+  [1] Did PM Modi and HM Amit Shah lose to the CJP?
+
+My answer is no.
+
+The BJP only takes a step back when it needs to move 10 steps forward. The Cockroach Janata Party was completely hijacked, gradually infiltrated by extremist organizations, leftist ideology, and the Deep State. They https://t.co/Dcfvt90bRi
+  [2] @Sanjay_Dixit 1. Kishan Protest 
+2. Shaheen Bagh 
+3. Delhi Riots 
+Now CJP .
+
+I  feel Modi is done now . he needs to pass the baton to Amit Shah ji and Yogi ji .
+
+Resignation is not wrong but the timing is wrong and he  ultimately surrenders to streets not genuine students 🙏
+  [3] During peaceful UGC protest of Savarn Hindus : 
+&gt; Ajeet Bharti was house arrested. 
+&gt; Ruchi Tiwari was dragged on roads.
+&gt; BJP govt remained silent.
+
+During violant protest of CJP &amp; Bhim Army : 
+&gt; CJP leaders were invited.
+&gt; Narendra Modi responded. 
+&gt; Dharmendra Pradhan https://t.co/6V4HxdfX9x
+
+--- Topic 13 (Count: 42) ---
+Keywords: nia(0.113), court(0.109), high court(0.106), delhi high(0.104), high(0.103), pil(0.101), seeking(0.092), probe(0.090), pil seeking(0.073), rejects(0.062)
+Representative docs:
+  [1] #BREAKING: Delhi High Court rejects PIL Seeking NIA Probe into CJP Protest at Jantar Mantar in New Delhi.
+  [2] #BREAKING: Delhi High Court rejects PIL Seeking NIA Probe into CJP Protest at Jantar Mantar in New Delhi.
+  [3] #BREAKING: Delhi High Court rejects PIL Seeking NIA Probe into CJP Protest at Jantar Mantar in New Delhi.
+
+--- Topic 14 (Count: 31) ---
+Keywords: https(0.047), jantarmantar(0.046), delhi cjp(0.045), neet(0.041), delhi(0.041), cjp(0.039), protest(0.038), cjpprotest(0.034), jantarmantar protest(0.033), video(0.032)
+Representative docs:
+  [1] Who Entered The NEET Protest Crowd?
+
+#jantarmantar #cjpprotest #cjp #delhi #delhiprotest #jantarmantarprotest #neet #dharmendrapradhan #sonamwangchuk #paperLeak #studentprotest #rahulgandhi https://t.co/4ToPXWEwjp
+  [2] @Cockroachisback 📢 The Prime Minister is standing with students.
+
+》NEET Topper backs PM Modi’s (@narendramodi) assurance and expresses confidence in reforms to safeguard the integrity of NEET
+
+》The real NEET QUALIFIED Students who shown there support protest against paper leak now they saying https://t.co/S4zP1NWIUp
+  [3] CJP, BJP பேச்சுவார்த்தை தோல்வியா? Modi Resign Demand? CJP's Explosive Announcement Over NEET Protest | CM Vijay | Journalist Kavitha interview 
+
+#NEET #JantarMandar #CJPProtest #CJP #Modi #delhi #JPNadda #delhiprotest #BANNEET #CMVijay‌ #TVKVijay‌Fails #Arakalagam https://t.co/d7RQ1Znen0
+
+--- Topic 15 (Count: 29) ---
+Keywords: jantar mantar(0.052), mantar(0.052), jantar(0.052), agitation(0.041), cjp(0.038), cjp calls(0.037), cjp announced(0.037), das(0.035), assurances(0.035), end(0.035)
+Representative docs:
+  [1] CJP Jantar Mantar Protest Live Updates: 'We withdraw agitation in good faith,' say CJP leaders at joint presser with Centre
+ https://t.co/wiuPAf1UFc
+Download the TOI app now:
+https://t.co/Av4VWorOpx
+  [2] CJP calls off protest but now their politics will start 😂
+
+CJP has announced to END the Jantar Mantar agitation after Govt assurances.
+
+Finally, Delhi will breathe free 🇮🇳
+
+#DharmendraPradhan #RestorePeace
+#TimeToEndProtest 
+#NEETExamProtest
+#जंतर_मंतर_ब्रेकिंग_न्यूज
+  [3] CJP calls off protest but now their politics will start 😂
+
+CJP has announced to END the Jantar Mantar agitation after Govt assurances.
+
+Finally, Delhi will breathe free 🇮🇳
+
+#DharmendraPradhan #RestorePeace
+#TimeToEndProtest 
+#NEETExamProtest
+#जंतर_मंतर_ब्रेकिंग_न्यूज https://t.co/rnbwnauQCk
+
+--- Topic 16 (Count: 25) ---
+Keywords: cockroachjantaparty protest(0.162), sonamwangchuk cjp(0.162), modi delhi(0.160), dharmendrapradhan sonamwangchuk(0.160), protest india(0.155), dharmendrapradhan(0.150), cockroachjantaparty(0.135), sonamwangchuk(0.134), abhijeetdipke(0.130), genzwithbharat(0.123)
+Representative docs:
+  [1] Gorlllss 
+
+#GenZWithBharat #NEET #Modi #Delhi #Dharmendrapradhan #SonamWangchuk #CJP #CJPMovement #AbhijeetDipke #CockroachJantaParty #Protest #India #ModiGovernment #BJP #genz #jantarmantar https://t.co/u6DwQMBSs2
+  [2] It's awareness. 
+
+#GenZWithBharat #NEET #Modi #Delhi #Dharmendrapradhan #SonamWangchuk #CJP #CJPMovement #AbhijeetDipke #CockroachJantaParty #Protest #India #ModiGovernment #BJP #genz #jantarmantar
+  [3] Creativity 
+#GenZWithBharat #NEET #Modi #Delhi #Dharmendrapradhan #SonamWangchuk #CJP #CJPMovement #AbhijeetDipke #CockroachJantaParty #Protest #India #ModiGovernment #BJP #genz #jantarmantar
+
+--- Topic 17 (Count: 28) ---
+Keywords: cjp protest(0.091), protest https(0.075), protest(0.064), best(0.062), cjp(0.058), https(0.057), reality(0.055), real(0.049), reel(0.049), gave(0.046)
+Representative docs:
+  [1] Never thought that this scene will ever come true from Reel life to Real life !!😂
+
+CJP protest in a nut shell.🔥 https://t.co/YEgwAtfPBL
+  [2] The best video of the CJP protest so far. 
+
+You might be able to fool Gen Z, but an older person cannot be manipulated like that. https://t.co/3Izalpw9Ay
+  [3] This kid is literally becoming a nightmare for left Liberals 🔥
+
+He is EXPOSING CJP Protest left right and centre with deep research 🔥
+
+Liberals tried to silence him by copyright strike but now he’s ROASTING them at 10x speed.
+
+More power to him 🙌🔥 https://t.co/ohkpE6nK3K
+
+--- Topic 18 (Count: 35) ---
+Keywords: police(0.059), delhi police(0.058), lathi charge(0.040), lathi(0.038), charge(0.036), delhi(0.034), mantar(0.033), jantar mantar(0.033), jantar(0.033), personnel(0.030)
+Representative docs:
+  [1] A Delhi Police officer was attacked by a crowd of 200–300 people at Jantar Mantar.
+
+For the last two days, attacks like this have continued. These CJP protesters are the ones creating chaos and disturbing the law and order situation.
+
+Shame on Abhijeet Dipke 🤬 https://t.co/u71Z9pz8NW
+  [2] BREAKING | 
+
+Delhi Police Cracks Down on Misinformation Amid CJP Protest
+
+Delhi Police says fake news, AI-generated videos, deepfakes and false social media narratives were used to create panic during the CJP protests at Jantar Mantar.
+
+▪️ No woman died during the July 20 https://t.co/nC3Gry1GYc
+  [3] #BREAKING: Several cops injured in fresh violence near Jantar Mantar protest site in New Delhi. Mob snatched baton sticks of cops and RAF and attacked police personnel. Situation not fully under control yet. https://t.co/V2jbF14ogF
+
+--- Topic 19 (Count: 24) ---
+Keywords: demands(0.068), accepted(0.054), return home(0.051), home(0.050), protesters(0.050), met(0.047), protesters return(0.046), return(0.045), calls protest(0.045), government(0.044)
+Representative docs:
+  [1] CJP has called off its protest with immediate effect after the third round of talks with the government. At a joint press conference in New Delhi, both sides confirmed an agreement had been reached, and CJP urged protesters to return home peacefully. https://t.co/a8KeB8OnQq
+  [2] #WATCH | CJP has called off its protest with immediate effect after the third round of talks with the government. At a joint press conference in New Delhi, both sides confirmed an agreement had been reached, and CJP urged protesters to return home peacefully. https://t.co/g85le8y7M7
+  [3] #BREAKINGNEWS | 
+#CJP calls off its protest with immediate effect after the third round of talks with the government. 
+At a joint press conference in New Delhi, both sides confirmed an agreement had been reached, and CJP urged protesters to return home peacefully.
+
+#NEETPAPERLEAK https://t.co/86M78aN3RG
+
+--- Topic 20 (Count: 30) ---
+Keywords: riots(0.104), farmers(0.089), farmers protest(0.071), republic(0.057), delhi riots(0.053), shaheen(0.044), shaheen bagh(0.044), bagh(0.043), winning(0.037), republic day(0.037)
+Representative docs:
+  [1] Republic TV at 8:00 AM: 🇺🇸Soros and deep agents are behind the Delhi protest
+
+Republic TV at 2:00 PM: 🇨🇳China is scripting regime change in India via the Delhi protest
+
+Republic TV at 7:00 PM: 🇧🇩Bangladesh is funding the protest https://t.co/DoPIf4f1zr
+  [2] @republic Can you put these videos on a dedicated web-page?  Else Global Tech will gradually scrub them away.
+
+This is evidence.
+
+Farmers protest - security forces hurt: no real penalty on rioters.
+
+Delhi Riots - same
+
+CJP riots - must ensure there's accountability
+
+@PMOIndia @HMOIndia
+  [3] 🚨Beware India !!  Deep State Conspiracy ! 
+George Soros has Destroyed 40+Countries in the World ! 
+
+🚨Now He wants to Destroy India And Some Traitors of India are Helping him in his Project ! 
+
+➡️ 2019 -  Anti-CAA Riots ! 
+➡️ 2020 - Delhi Riots ! 
+➡️ 2021 -  Farmer Protests ! https://t.co/mzaaBHJEZE
+
+--- Topic 21 (Count: 25) ---
+Keywords: guns(0.085), use(0.054), used(0.043), injuries(0.040), seeks(0.039), tear gas(0.039), tear(0.038), inside(0.038), gas(0.038), rahul(0.036)
+Representative docs:
+  [1] Pellet gun controversy at the CJP protest | Protesters allege a pellet gun attack, while Delhi Police deny using pellet guns.
+
+Who is accountable for the pellet injuries?
+
+Tune in for more in this report.
+
+#NEETPaperLeakCase #StudentProtest #Education #Delhi #JantarMantar https://t.co/obXZrrrNDc
+  [2] #Quickplainers | On July 20, police used lathis and tear gas on those who marched from Jantar Mantar toward Parliament over NEET exam paper leaks. At least 3 people showed pellet wounds, including one who may lose his eyesight. Delhi Police has denied using pellet guns, but a https://t.co/LbQN6xm7lI
+  [3] "When I went to the CJP protest, I never expected I'd be shot [by a pellet gun]. I thought pellet guns were used only in Kashmir. I had gone to take part in the march to Parliament. Amid the tear gas shelling during the clash between protesters and police near Jantar Mantar, I https://t.co/330g23FFnV
+
+--- Topic 22 (Count: 21) ---
+Keywords: delhi police(0.059), needs(0.055), police(0.052), 2026(0.039), caste(0.039), samrat(0.039), file fir(0.039), people supporting(0.039), delhi(0.039), deserve(0.036)
+Representative docs:
+  [1] @Kanchanyadav000 says general caste deserve to be implicated in false cases,same people are supporting anarchy of CJP protest in Delhi 
+@BJP4Bihar @samrat @officecmbihar @bihar_police needs to file an FIR against her
+  [2] @UnSubtleDesi @Kanchanyadav000 says general caste deserve to be implicated in false cases,same people are supporting anarchy of CJP protest in Delhi 
+@BJP4Bihar @samrat @officecmbihar @bihar_police needs to file an FIR against her
+  [3] @Kanchanyadav000 says general caste deserve to be implicated in false cases,same people are supporting anarchy of CJP protest in Delhi 
+@BJP4Bihar @samrat @officecmbihar @bihar_police needs to file an FIR against her
+
+--- Topic 23 (Count: 27) ---
+Keywords: dipke(0.079), abhijeet(0.076), abhijeet dipke(0.070), founder(0.055), cjp founder(0.048), founder abhijeet(0.047), cockroach(0.035), diagnosed(0.029), cockroach janta(0.028), janta(0.028)
+Representative docs:
+  [1] Delhi: Cockroach Janta Party (CJP) founder Abhijeet Dipke broke down in tears at the Jantar Mantar protest site during the ongoing demonstration following activist Sonam Wangchuk's removal from the venue by the Delhi Police https://t.co/wfgfDoZVHb
+  [2] New Delhi: Cockroach Janta Party (#CJP) founder #AbhijeetDipke on Saturday said he had been diagnosed with typhoid but vowed that his illness would not slow the movement seeking Union Education Minister #DharmendraPradhan's resignation. I
+
+https://t.co/gxlxfIbjs1
+  [3] 🎥 | Cockroach Janta Party (CJP) founder Abhijeet Dipke on Saturday shared an update on his health, saying he has been diagnosed with typhoid. Despite his illness, he asserted that the nationwide protests demanding the resignation of Union Minister Dharmendra Pradhan will https://t.co/a2CCJwJmKj
+
+--- Topic 24 (Count: 27) ---
+Keywords: cockroach(0.044), party(0.043), party cjp(0.041), paper(0.040), education minister(0.039), neet paper(0.038), cockroach janta(0.038), janta(0.038), janta party(0.038), minister(0.036)
+Representative docs:
+  [1] #InPics | People gathered in Kolkata in solidarity with the Cockroach Janta Party's (CJP) protest at Jantar Mantar in New Delhi, demanding the resignation of Union Education Minister Dharmendra Pradhan over alleged examination paper leaks https://t.co/YeR3RxqtTH
+  [2] Cockroach Janta Party (CJP) supporters, and Volunteers protest seeking resignation of Union Education Minister Dharmendra Pradhan over alleged examination irregularities and NEET paper leak in New Delhi on July 24, 2026.
+
+📸  : Shashi Shekhar Kashyap https://t.co/uTO7lc5ZKo
+  [3] Supporters of the Cockroach Janata Party (CJP) protest at Jantar Mantar in New Delhi on July 22, 2026, demanding the resignation of Union Education Minister Dharmendra Pradhan over alleged examination irregularities and the NEET paper leak.
+
+📸@msikku153 #shadqureshi https://t.co/vxOTDiVSQO
+
+--- Topic 25 (Count: 22) ---
+Keywords: murder(0.061), delhi police(0.060), violence(0.060), police(0.060), case(0.051), protest violence(0.051), charge(0.049), firs(0.048), 15 firs(0.046), attempt murder(0.043)
+Representative docs:
+  [1] Delhi Cops Add Attempt To Murder Charge In CJP Protest Violence Case
+https://t.co/v4Y9SsGqyz https://t.co/u1zJRn7rJU
+  [2] Delhi Police Add Attempted Murder Charge in FIR Over July 20 NEET Protest Violence   KNOW MORE:  https://t.co/GMkIHmq2dc
+
+@DelhiPolice 
+
+Delhi Police have added an attempted murder charge to an FIR over the July 20 protest violence near Parliament, alleging attacks on security
+  [3] Violence During CJP Protest: Delhi Police Registers 15 FIRs, Attempt to Murder Charge Added
+#DelhiPolice #CJP #StudentProtests #Violence #LawAndOrder #NEET #BreakingNews #Delhi
+@DelhiPolice
+https://t.co/Vl59WmqaFB
+
+--- Topic 26 (Count: 22) ---
+Keywords: abuse(0.069), modi(0.061), muslim(0.049), exposed(0.041), caught(0.040), har(0.040), man(0.040), fraud(0.038), indian(0.037), joined(0.036)
+Representative docs:
+  [1] 🚨 Biggest fraud caught red-handed:
+
+He was roaming at the CJP protest becoming fake priest and eating with a Muslim from the same plate and defaming Hinduism.
+
+Now some Hindu kings caught him and asked him to recite the Gayatri Mantra, but he was unable to answer it and simply https://t.co/mydCL4cz88
+  [2] CRPF personnel has completely exposed the entire CJP protest.
+
+He is currently deployed at Jantar Mantar, and every single word he said is absolutely accurate and powerful.
+
+I was deeply moved by what he said, and I believe every Indian should listen to him and understand his https://t.co/ZwAhG9soj1
+  [3] CRPF personnel has completely exposed the entire CJP protest.
+
+He is currently deployed at Jantar Mantar, and every single word he said is absolutely accurate and powerful.
+
+I was deeply moved by what he said, and I believe every Indian should listen to him and understand his https://t.co/W3h9NGegAj
+
+=== Probability Stats ===
+Shape : (1500, 27)
+Min   : 0.000
+Max   : 1.000
+Mean  : 0.029
