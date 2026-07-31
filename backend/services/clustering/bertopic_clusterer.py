@@ -5,13 +5,12 @@ from sklearn.feature_extraction.text import CountVectorizer
 from umap import UMAP
 from hdbscan import HDBSCAN
 
-from utils.config import Config
 from services.clustering.clustering_interface import ClusteringInterface
 
 
 class BERTopicClusterer(ClusteringInterface):
 
-    def __init__(self):
+    def __init__(self, embedding_model=None):
         umap_model = UMAP(
             n_neighbors=15,
             n_components=5,
@@ -44,7 +43,7 @@ class BERTopicClusterer(ClusteringInterface):
         self.vectorizer_model = vectorizer_model
 
         self.model = BERTopic(
-            embedding_model=Config.EMBEDDING_MODEL,
+            embedding_model=embedding_model,
             umap_model=umap_model,
             hdbscan_model=hdbscan_model,
             vectorizer_model=vectorizer_model,

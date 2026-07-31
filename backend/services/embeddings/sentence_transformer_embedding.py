@@ -35,3 +35,9 @@ class SentenceTransformerEmbedding(EmbeddingInterface):
         )
 
         return embeddings
+
+    @property
+    def model(self):
+        """Expose the underlying loaded model so other components (e.g. BERTopic)
+        can reuse it instead of loading a second copy into memory."""
+        return SentenceTransformerEmbedding._model

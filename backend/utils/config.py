@@ -15,5 +15,5 @@ class Config:
     X_PERSONALIZATION_ID = os.getenv("X_PERSONALIZATION_ID")
     X_GUEST_ID_MARKETING = os.getenv("X_GUEST_ID_MARKETING")
     X_CT0 = os.getenv("X_CT0")
-    EMBEDDING_MODEL = "BAAI/bge-base-en-v1.5"
+    EMBEDDING_MODEL = "BAAI/bge-large-en-v1.5"
     DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
