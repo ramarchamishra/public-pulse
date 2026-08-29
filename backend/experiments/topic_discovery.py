@@ -8,6 +8,7 @@ from services.embeddings.sentence_transformer_embedding import (
     SentenceTransformerEmbedding,
 )
 from services.clustering.bertopic_clusterer import BERTopicClusterer
+from backend.services.preprocessing.regex_text_cleaner import RegexTextCleaner
 
 
 def main():
@@ -18,17 +19,19 @@ def main():
 
     tweets = get_tweets_by_search(search_id)
     texts = [tweet.text for tweet in tweets]
+    cleaner = RegexTextCleaner()
+    cleaned_texts = cleaner.clean_batch(texts)
 
     lines = []
-    lines.append(f"Loaded {len(texts)} tweets")
-    print(f"Loaded {len(texts)} tweets")
+    lines.append(f"Loaded {len(cleaned_texts)} tweets")
+    print(f"Loaded {len(cleaned_texts)} tweets")
 
-    embeddings = embedding_service.encode(texts)
+    embeddings = embedding_service.encode(cleaned_texts)
     lines.append("Embeddings generated")
     print("Embeddings generated")
 
     topics, probabilities = clusterer.discover_themes(
-        texts,
+        cleaned_texts,
         embeddings,
     )
 
