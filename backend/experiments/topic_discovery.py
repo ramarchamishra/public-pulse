@@ -8,7 +8,7 @@ from services.embeddings.sentence_transformer_embedding import (
     SentenceTransformerEmbedding,
 )
 from services.clustering.bertopic_clusterer import BERTopicClusterer
-from backend.services.preprocessing.regex_text_cleaner import RegexTextCleaner
+from services.preprocessing.regex_text_cleaner import RegexTextCleaner
 
 
 def main():
