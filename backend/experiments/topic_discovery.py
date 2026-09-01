@@ -10,6 +10,55 @@ from services.embeddings.sentence_transformer_embedding import (
 from services.clustering.bertopic_clusterer import BERTopicClusterer
 from services.preprocessing.regex_text_cleaner import RegexTextCleaner
 
+def export_topic_assignments(
+    tweets,
+    original_texts,
+    cleaned_texts,
+    topics,
+    output_path,
+):
+    if not (
+        len(tweets)
+        == len(original_texts)
+        == len(cleaned_texts)
+        == len(topics)
+    ):
+        raise ValueError(
+            "Tweet/topic alignment mismatch: "
+            f"tweets={len(tweets)}, "
+            f"original_texts={len(original_texts)}, "
+            f"cleaned_texts={len(cleaned_texts)}, "
+            f"topics={len(topics)}"
+        )
+
+    rows = []
+
+    for index, (tweet, original_text, cleaned_text, topic) in enumerate(
+        zip(
+            tweets,
+            original_texts,
+            cleaned_texts,
+            topics,
+        )
+    ):
+        rows.append(
+            {
+                "source_index": index,
+                "tweet_id": tweet.tweet_id,
+                "topic": int(topic),
+                "original_text": original_text,
+                "cleaned_text": cleaned_text,
+            }
+        )
+
+    dataframe = pd.DataFrame(rows)
+
+    dataframe.to_csv(
+        output_path,
+        index=False,
+    )
+
+    print(f"Topic assignments exported to: {output_path}")
 
 def main():
     search_id = int(input("Search ID:"))
@@ -103,12 +152,31 @@ def main():
 
     # Optional: also dump the raw topic table as CSV for further analysis
     csv_path = os.path.join(
-        output_dir, f"topic_info_search_{search_id}_{timestamp}.csv"
+        output_dir,
+        f"topic_info_search_{search_id}_{timestamp}.csv"
     )
-    topic_info.to_csv(csv_path, index=False)
-
+    
+    topic_info.to_csv(
+        csv_path,
+        index=False,
+    )
+    
+    assignments_path = os.path.join(
+        output_dir,
+        f"topic_assignments_search_{search_id}_{timestamp}.csv",
+    )
+    
+    export_topic_assignments(
+        tweets=tweets,
+        original_texts=texts,
+        cleaned_texts=cleaned_texts,
+        topics=topics,
+        output_path=assignments_path,
+    )
+    
     print(f"Report written to {output_path}")
     print(f"Topic table (CSV) written to {csv_path}")
+    print(f"Topic assignments (CSV) written to {assignments_path}")
 
 
 if __name__ == "__main__":

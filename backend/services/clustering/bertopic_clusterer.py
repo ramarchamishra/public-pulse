@@ -12,7 +12,7 @@ class BERTopicClusterer(ClusteringInterface):
     def __init__(
         self,
         embedding_model=None,
-        min_cluster_size=15,
+        min_cluster_size=12,
         min_samples=5,
         cluster_selection_method="eom",
         calculate_probabilities=True,
