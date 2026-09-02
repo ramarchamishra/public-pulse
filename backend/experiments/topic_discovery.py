@@ -61,7 +61,7 @@ def export_topic_assignments(
     print(f"Topic assignments exported to: {output_path}")
 
 def main():
-    search_id = int(input("Search ID:"))
+    search_id = 4
 
     embedding_service = SentenceTransformerEmbedding()
     clusterer = BERTopicClusterer(embedding_model=embedding_service.model)
