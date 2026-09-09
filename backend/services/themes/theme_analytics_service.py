@@ -7,6 +7,7 @@ from database.repositories.themes_repository import (
 from database.repositories.theme_assignments_repository import (
     get_assignment_statistics_for_run,
     get_theme_sentiment_statistics_for_run,
+    get_tweets_for_theme
 )
 
 class ThemeAnalyticsService:
@@ -133,3 +134,17 @@ class ThemeAnalyticsService:
         summary["noise"] = noise
 
         return summary
+
+    def get_theme_tweets(
+        self,
+        run_id: int,
+        bertopic_topic_id: int,
+        model_name: str,
+        limit: int = 5
+    ) -> list[dict]:
+        return get_tweets_for_theme(
+            run_id=run_id,
+            bertopic_topic_id=bertopic_topic_id,
+            model_name=model_name,
+            limit=limit
+        )

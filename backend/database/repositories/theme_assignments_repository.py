@@ -131,3 +131,65 @@ def get_theme_sentiment_statistics_for_run(
 
     finally:
         connection.close()
+
+
+def get_tweets_for_theme(
+    run_id: int,
+    bertopic_topic_id: int,
+    model_name: str,
+    limit: int = 5
+) -> list[dict]:
+    if limit <= 0:
+        raise ValueError("limit must be greater than zero")
+
+    if bertopic_topic_id < -1:
+        raise ValueError("bertopic_topic_id must be -1 or greater")
+
+    connection = get_connection()
+
+    try:
+        cursor = connection.cursor()
+
+        cursor.execute("""
+            SELECT
+                t.tweet_id,
+                t.text,
+                t.author,
+                t.created_at,
+                ta.theme_id,
+                ta.bertopic_topic_id,
+                ta.probability AS theme_probability,
+                sr.label AS sentiment_label,
+                sr.confidence AS sentiment_confidence
+
+            FROM theme_assignments ta
+
+            JOIN tweets t
+                ON t.tweet_id = ta.tweet_id
+
+            LEFT JOIN sentiment_results sr
+                ON sr.tweet_id = ta.tweet_id
+                AND sr.model_name = ?
+
+            WHERE ta.run_id = ?
+              AND ta.bertopic_topic_id = ?
+
+            ORDER BY
+                ta.probability DESC,
+                t.tweet_id ASC
+
+            LIMIT ?
+        """, (
+            model_name,
+            run_id,
+            bertopic_topic_id,
+            limit
+        ))
+
+        return [
+            dict(row)
+            for row in cursor.fetchall()
+        ]
+
+    finally:
+        connection.close()
