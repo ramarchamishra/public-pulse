@@ -87,3 +87,47 @@ def get_assignment_statistics_for_run(
 
     finally:
         connection.close()
+
+
+def get_theme_sentiment_statistics_for_run(
+    run_id: int,
+    model_name: str
+) -> list[dict]:
+    connection = get_connection()
+
+    try:
+        cursor = connection.cursor()
+
+        cursor.execute("""
+            SELECT
+                ta.theme_id,
+                ta.bertopic_topic_id,
+                sr.label,
+                COUNT(*) AS tweet_count,
+                AVG(sr.confidence) AS average_confidence
+
+            FROM theme_assignments ta
+
+            LEFT JOIN sentiment_results sr
+                ON sr.tweet_id = ta.tweet_id
+                AND sr.model_name = ?
+
+            WHERE ta.run_id = ?
+
+            GROUP BY
+                ta.theme_id,
+                ta.bertopic_topic_id,
+                sr.label
+
+            ORDER BY
+                ta.bertopic_topic_id ASC,
+                sr.label ASC
+        """, (model_name, run_id))
+
+        return [
+            dict(row)
+            for row in cursor.fetchall()
+        ]
+
+    finally:
+        connection.close()
