@@ -1,7 +1,11 @@
-from database.repositories.tweets_repository import get_unanalyzed_tweets
+from database.repositories.tweets_repository import (
+    get_unanalyzed_tweets,
+    get_tweets_by_search,
+)
 from database.repositories.sentiment_results_repository import (
     save_sentiment,
     get_sentiment_statistics,
+    get_analyzed_tweet_ids_for_search,
 )
 
 from services.sentiment.roberta_sentiment import RobertaSentiment
@@ -83,3 +87,62 @@ class AnalysisService:
                 )
 
         return summary
+
+
+    def analyze_search(self, search_id: int) -> dict:
+        tweets = get_tweets_by_search(search_id)
+
+        if not tweets:
+            raise ValueError(
+                f"No tweets found for search ID {search_id}"
+            )
+
+        model_name = self.sentiment.MODEL_NAME
+
+        analyzed_ids = get_analyzed_tweet_ids_for_search(
+            search_id,
+            model_name
+        )
+
+        pending_tweets = [
+            tweet
+            for tweet in tweets
+            if str(tweet.tweet_id) not in analyzed_ids
+        ]
+
+        pending_count = len(pending_tweets)
+        analyzed_count = 0
+
+        print(
+            f"Search {search_id}: {len(tweets)} tweets, "
+            f"{pending_count} pending"
+        )
+
+        for tweet in pending_tweets:
+            label, confidence = self.sentiment.analyze(tweet)
+
+            save_sentiment(
+                tweet_id=tweet.tweet_id,
+                model_name=model_name,
+                label=label,
+                confidence=confidence
+            )
+
+            analyzed_count += 1
+
+            if (
+                analyzed_count % 100 == 0
+                or analyzed_count == pending_count
+            ):
+                print(
+                    f"Sentiment progress: "
+                    f"{analyzed_count}/{pending_count}"
+                )
+
+        return {
+            "search_id": search_id,
+            "model_name": model_name,
+            "tweets_found": len(tweets),
+            "already_analyzed": len(tweets) - pending_count,
+            "tweets_analyzed": analyzed_count,
+        }

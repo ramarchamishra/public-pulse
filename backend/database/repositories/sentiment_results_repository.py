@@ -59,3 +59,31 @@ def save_sentiment(
 
     connection.commit()
     connection.close()
+
+def get_analyzed_tweet_ids_for_search(
+    search_id: int,
+    model_name: str
+) -> set[str]:
+    connection = get_connection()
+
+    try:
+        cursor = connection.cursor()
+
+        cursor.execute("""
+            SELECT sr.tweet_id
+            FROM sentiment_results sr
+
+            JOIN search_tweets st
+                ON st.tweet_id = sr.tweet_id
+
+            WHERE st.search_id = ?
+              AND sr.model_name = ?
+        """, (search_id, model_name))
+
+        return {
+            str(row["tweet_id"])
+            for row in cursor.fetchall()
+        }
+
+    finally:
+        connection.close()
