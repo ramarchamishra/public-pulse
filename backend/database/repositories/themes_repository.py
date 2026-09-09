@@ -1,5 +1,6 @@
 import json
 import sqlite3
+from database.connection import get_connection
 
 
 def create_theme(
@@ -34,3 +35,54 @@ def create_theme(
         raise RuntimeError("Failed to create theme")
 
     return theme_id
+
+def get_themes_for_run(run_id: int) -> list[dict]:
+    connection = get_connection()
+
+    try:
+        cursor = connection.cursor()
+
+        cursor.execute("""
+            SELECT
+                t.id,
+                t.run_id,
+                t.bertopic_topic_id,
+                t.name,
+                t.keywords,
+                COUNT(ta.id) AS tweet_count
+            FROM themes t
+
+            LEFT JOIN theme_assignments ta
+                ON ta.theme_id = t.id
+                AND ta.run_id = t.run_id
+
+            WHERE t.run_id = ?
+
+            GROUP BY
+                t.id,
+                t.run_id,
+                t.bertopic_topic_id,
+                t.name,
+                t.keywords
+
+            ORDER BY
+                tweet_count DESC,
+                t.bertopic_topic_id ASC
+        """, (run_id,))
+
+        rows = cursor.fetchall()
+
+        return [
+            {
+                "id": row["id"],
+                "run_id": row["run_id"],
+                "bertopic_topic_id": row["bertopic_topic_id"],
+                "name": row["name"],
+                "keywords": json.loads(row["keywords"]),
+                "tweet_count": row["tweet_count"],
+            }
+            for row in rows
+        ]
+
+    finally:
+        connection.close()
