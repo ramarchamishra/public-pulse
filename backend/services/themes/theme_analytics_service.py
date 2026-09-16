@@ -30,6 +30,12 @@ class ThemeAnalyticsService:
         clustered_count = statistics["clustered_count"]
         noise_count = statistics["noise_count"]
 
+        for theme in themes:
+            theme["discussion_share_percentage"] = (
+                theme["tweet_count"] / total_count * 100
+                if total_count else 0.0
+            )
+
         clustered_percentage = (
             clustered_count / total_count * 100
             if total_count else 0.0
@@ -77,6 +83,7 @@ class ThemeAnalyticsService:
             "bertopic_topic_id": -1,
             "name": "Unclustered tweets",
             "tweet_count": summary["noise_count"],
+            "discussion_share_percentage": summary["noise_percentage"],
         }
 
         for group in [*summary["themes"], noise]:
