@@ -1,50 +1,95 @@
 import time
+from pprint import pprint
 
-from database.repositories.tweets_repository import get_tweets_by_search
-from services.sentiment.roberta_sentiment import RobertaSentiment
-
-
-SEARCH_ID = 6
+from database.connection import get_connection
+from services.analysis.analysis_service import AnalysisService
+from utils.config import Config
 
 
 def main():
+    search_id = int(input("Enter search ID: "))
 
-    tweets = get_tweets_by_search(
-        search_id=SEARCH_ID
-    )
+    if str(Config.DEVICE).split(":")[0].lower() != "cuda":
+        raise RuntimeError("Configure CUDA before running sentiment analysis")
 
-    print(f"Fetched {len(tweets)} tweets.\n")
-
-    sentiment = RobertaSentiment()
+    service = AnalysisService()
 
     start = time.perf_counter()
+    result = service.analyze_search(search_id)
+    elapsed = time.perf_counter() - start
 
-    results = []
+    print("\nAnalysis result:")
+    pprint(result)
+    print(f"Time taken: {elapsed:.2f} seconds (excluding model loading)")
 
-    for tweet in tweets:
+    analyzed_count = result["tweets_analyzed"]
 
-        label, confidence = sentiment.analyze(tweet)
+    if analyzed_count:
+        print(
+            "Average including database saves: "
+            f"{elapsed / analyzed_count:.4f} sec/new tweet"
+        )
+    else:
+        print("All tweets already have sentiment for this model.")
 
-        results.append((label, confidence))
+    # Read only this search's saved results for the selected model.
+    connection = get_connection()
 
-    end = time.perf_counter()
+    try:
+        statistics = connection.execute("""
+            SELECT
+                sr.label,
+                COUNT(*) AS tweet_count,
+                AVG(sr.confidence) AS average_confidence
+            FROM sentiment_results sr
+            JOIN search_tweets st ON st.tweet_id = sr.tweet_id
+            WHERE st.search_id = ?
+              AND sr.model_name = ?
+            GROUP BY sr.label
+            ORDER BY sr.label
+        """, (search_id, result["model_name"])).fetchall()
 
-    print(f"Analyzed {len(results)} tweets")
-    print(f"Time Taken : {end - start:.2f} seconds")
-    print(f"Average    : {(end - start)/len(results):.4f} sec/tweet\n")
+        examples = connection.execute("""
+            SELECT
+                t.tweet_id,
+                t.text,
+                sr.label,
+                sr.confidence
+            FROM sentiment_results sr
+            JOIN search_tweets st ON st.tweet_id = sr.tweet_id
+            JOIN tweets t ON t.tweet_id = sr.tweet_id
+            WHERE st.search_id = ?
+              AND sr.model_name = ?
+            ORDER BY t.tweet_id ASC
+            LIMIT 10
+        """, (search_id, result["model_name"])).fetchall()
 
-    print("First 10 Results:\n")
+    finally:
+        connection.close()
 
-    for i, (tweet, result) in enumerate(zip(tweets, results), start=1):
+    total_saved = sum(row["tweet_count"] for row in statistics)
 
-        if i > 10:
-            break
+    print("\nSaved sentiment distribution:")
+    for row in statistics:
+        pprint(dict(row))
 
-        label, confidence = result
+    print("\nSaved results for this search and model:", total_saved)
 
-        print(f"{i}. {label:9} ({confidence:.4f})")
-        print(tweet.text[:120])
-        print("-" * 80)
+    if total_saved != result["tweets_found"]:
+        raise RuntimeError(
+            "Sentiment coverage mismatch: "
+            f"expected={result['tweets_found']}, saved={total_saved}"
+        )
+
+    print("Sentiment coverage check passed")
+    print("\nFirst 10 saved results (ordered by tweet ID):")
+
+    for index, row in enumerate(examples, start=1):
+        print(
+            f"\n{index}. {row['label']:9} "
+            f"({row['confidence']:.4f}) | Tweet {row['tweet_id']}"
+        )
+        print(row["text"][:120])
 
 
 if __name__ == "__main__":
