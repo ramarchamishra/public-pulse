@@ -22,6 +22,48 @@ def print_group(group):
         f'{group["name"]}'
     )
 
+def print_theme_tweets(service, run_id, topic_id, limit=5):
+    tweets = service.get_theme_tweets(
+        run_id=run_id,
+        bertopic_topic_id=topic_id,
+        model_name=SENTIMENT_MODEL,
+        limit=limit
+    )
+
+    if not tweets:
+        print(f"\nNo tweets found for topic {topic_id}.")
+        return
+
+    print(f"\nRepresentative tweets for topic {topic_id}")
+    print("=" * 100)
+
+    for index, tweet in enumerate(tweets, start=1):
+        theme_probability = tweet["theme_probability"]
+        sentiment_confidence = tweet["sentiment_confidence"]
+
+        theme_probability_text = (
+            "N/A"
+            if theme_probability is None
+            else f"{theme_probability:.3f}"
+        )
+
+        sentiment_confidence_text = (
+            "N/A"
+            if sentiment_confidence is None
+            else f"{sentiment_confidence:.3f}"
+        )
+
+        sentiment_label = tweet["sentiment_label"] or "N/A"
+
+        print(
+            f"\n{index}. Tweet ID: {tweet['tweet_id']}\n"
+            f"Theme probability: {theme_probability_text}\n"
+            f"Sentiment: {sentiment_label} "
+            f"(confidence: {sentiment_confidence_text})\n"
+            f"Text: {tweet['text']}"
+        )
+
+    print("\n" + "=" * 100)
 
 def main():
     search_id = int(input("Enter search ID: "))
@@ -72,6 +114,41 @@ def main():
 
     print("\nAssignments with sentiment:", analyzed_count)
     print("Assignments missing sentiment:", missing_count)
+
+    print(
+        "\nEnter a topic ID to inspect representative tweets."
+        "\nUse -1 for unclustered/noise tweets."
+        "\nPress Enter to exit."
+    )
+
+    while True:
+        value = input("\nTopic ID: ").strip()
+
+        if value == "":
+            break
+
+        try:
+            topic_id = int(value)
+        except ValueError:
+            print("Please enter a valid integer topic ID.")
+            continue
+
+        valid_topic_ids = {
+            theme["bertopic_topic_id"]
+            for theme in summary["themes"]
+        }
+        valid_topic_ids.add(-1)
+
+        if topic_id not in valid_topic_ids:
+            print("That topic does not exist in this run.")
+            continue
+
+        print_theme_tweets(
+            service=service,
+            run_id=run["id"],
+            topic_id=topic_id,
+            limit=5
+        )
 
 
 if __name__ == "__main__":
